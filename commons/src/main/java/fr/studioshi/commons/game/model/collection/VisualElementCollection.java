@@ -5,7 +5,8 @@ import java.util.List;
 
 import fr.studioshi.commons.game.entities.VisualEntity;
 
-public class VisualElementCollection<T extends VisualEntity> extends ElementCollection<T>  implements VisualEntity {
+public class VisualElementCollection<T extends VisualEntity> extends
+		ElementCollection<T> implements VisualEntity {
 
 	public VisualElementCollection() {
 		super();

@@ -3,27 +3,16 @@ package fr.studioshi.commons.game.model;
 import java.awt.Graphics;
 
 import fr.studioshi.commons.game.entities.GameEntity;
-import fr.studioshi.commons.game.entities.SoundEntity;
-import fr.studioshi.commons.game.entities.VisualEntity;
 
-public abstract class GameElement implements VisualEntity, GameEntity,
-		SoundEntity {
+public abstract class GameElement implements GameEntity {
 
-	protected VisualRender visualRender;
+	protected VisualRenderer visualRenderer;
 
-	protected SoundRender soundRender;
-
-	public SoundRender getSoundRender() {
-		return soundRender;
-	}
-
-	public VisualRender getVisualRender() {
-		return visualRender;
-	}
+	protected SoundPlayer soundPlayer;
 
 	public void playSound() {
-		if (soundRender != null) {
-			soundRender.playSound();
+		if (soundPlayer != null) {
+			soundPlayer.playSound();
 		}
 	}
 
@@ -31,16 +20,25 @@ public abstract class GameElement implements VisualEntity, GameEntity,
 	}
 
 	public void render(Graphics graphics) {
-		if (visualRender != null) {
-			visualRender.render(graphics);
+		if (visualRenderer != null) {
+			visualRenderer.render(graphics);
 		}
 	}
 
-	public void setSoundRender(SoundRender soundRender) {
-		this.soundRender = soundRender;
+	public VisualRenderer getVisualRenderer() {
+		return visualRenderer;
 	}
 
-	public void setVisualRender(VisualRender visualRender) {
-		this.visualRender = visualRender;
+	public void setVisualRenderer(VisualRenderer visualRenderer) {
+		this.visualRenderer = visualRenderer;
 	}
+
+	public SoundPlayer getSoundPlayer() {
+		return soundPlayer;
+	}
+
+	public void setSoundPlayer(SoundPlayer soundPlayer) {
+		this.soundPlayer = soundPlayer;
+	}
+
 }

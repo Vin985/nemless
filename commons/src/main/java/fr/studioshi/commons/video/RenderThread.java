@@ -16,7 +16,7 @@ import fr.studioshi.commons.video.engine.GraphicEngine;
 public class RenderThread extends Thread {
 
 	private Game game;
-	
+
 	private GraphicEngine graphicEngine;
 
 	/** The strategy that allows us to use accelerate page flipping */
@@ -24,11 +24,8 @@ public class RenderThread extends Thread {
 
 	private Graphics2D graphics;
 
-	public RenderThread(GraphicEngine graphicEngine) {
-		super();
-		this.graphicEngine = graphicEngine;
-	}
-	
+	private boolean done_ = false;
+
 	public RenderThread(Game game) {
 		super();
 		this.game = game;
@@ -40,15 +37,19 @@ public class RenderThread extends Thread {
 				RenderingHints.VALUE_RENDER_QUALITY);
 	}
 
-	private boolean done_ = false;
+	public RenderThread(GraphicEngine graphicEngine) {
+		super();
+		this.graphicEngine = graphicEngine;
+	}
 
 	/**
 	 * @return Returns the done_.
 	 */
 	public boolean isDone_() {
-		return this.done_;
+		return done_;
 	}
 
+	@Override
 	public void run() {
 		int fps = 0;
 		AdvancedTimer timer = new AdvancedTimer();

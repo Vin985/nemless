@@ -43,7 +43,7 @@ public class SpriteStore {
 		// if we've already got the sprite in the cache
 		// then just return the existing version
 		if (sprites.get(key) != null) {
-			return (Sprite) sprites.get(key);
+			return sprites.get(key);
 		}
 
 		Sprite sprite = spriteLoader.loadSprite(key);
