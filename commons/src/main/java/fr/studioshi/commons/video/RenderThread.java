@@ -1,11 +1,6 @@
 package fr.studioshi.commons.video;
 
-import java.awt.Canvas;
-import java.awt.Color;
 import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import java.awt.image.BufferStrategy;
 
 import com.dnsalias.java.timer.AdvancedTimer;
 
@@ -19,34 +14,10 @@ public class RenderThread extends Thread {
 
 	private GraphicEngine graphicEngine;
 
-	/** The strategy that allows us to use accelerate page flipping */
-	private BufferStrategy strategy;
-
-	private Graphics2D graphics;
-
-	private boolean done_ = false;
-
-	public RenderThread(Game game) {
-		super();
+	public RenderThread(Game game, GraphicEngine graphicEngine) {
 		this.game = game;
-		Canvas displaySurface = game.getGameWindow().getDisplaySurface();
-		displaySurface.createBufferStrategy(2);
-		strategy = displaySurface.getBufferStrategy();
-		graphics = (Graphics2D) strategy.getDrawGraphics();
-		graphics.setRenderingHint(RenderingHints.KEY_RENDERING,
-				RenderingHints.VALUE_RENDER_QUALITY);
-	}
-
-	public RenderThread(GraphicEngine graphicEngine) {
-		super();
 		this.graphicEngine = graphicEngine;
-	}
-
-	/**
-	 * @return Returns the done_.
-	 */
-	public boolean isDone_() {
-		return done_;
+		graphicEngine.init(game.getGameWindow().getDisplaySurface());
 	}
 
 	@Override
@@ -76,14 +47,13 @@ public class RenderThread extends Thread {
 					fpsStartTime = timer.getClockTicks();
 					fps = 0;
 				}
-				game.render(graphics);
+				graphicEngine.render(game);
 
 				// display fps
-				graphics.setColor(Color.YELLOW);
-				fpsDisplay.render(graphics);
+				// graphics.setColor(Color.YELLOW);
+				// fpsDisplay.render(graphics);
 
 				// show graphics
-				strategy.show();
 				fps++;
 
 				// trace duration of loop
@@ -101,14 +71,6 @@ public class RenderThread extends Thread {
 			} catch (Exception ie) {
 			}
 		}
-	}
-
-	/**
-	 * @param done_
-	 *            The done_ to set.
-	 */
-	public void setDone_(boolean done_) {
-		this.done_ = done_;
 	}
 
 }
