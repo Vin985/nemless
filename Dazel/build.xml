@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<project name="DaZelVodKaya" default="jar" basedir=".">
+	<description>
+        The Java Project.
+    </description>
+
+	<property name="src" location="src" />
+	<property name="doc" location="doc" />
+	<property name="build" location="bin" />
+
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp />
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}" />
+	</target>
+
+	<target name="doc" description="Creates the JavaDoc output">
+		<mkdir dir="${doc}" />
+		<javadoc sourcepath="src" packagenames="*" destdir="${doc}" />
+	</target>
+
+	<target name="build" depends="init" description="compile the source">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}" />
+	</target>
+
+	<target name="jar" depends="build" description="generate the jar file">
+		<!-- Put everything in ${build} into the dazelvodkaya.jar file -->
+		<jar destfile="dazelvodkaya.jar" basedir="${build}" manifest="manifest.mf"  />
+		<!-- Put everything in ${build}/editor into the editor.jar file 
+		<jar destfile="editor.jar" basedir="${build}"
+			excludes="main/**,
+				  perso/**,
+				  screen/**,
+				  sound/**"
+			 /> -->
+	</target>
+
+	<target name="dist" depends="jar" description="make the final tarball">
+		<!-- Create the distribution directory -->
+		<!-- Tars all files in the dazelvodkaya directory -->
+		<tar destfile="dazelvodkaya.tar">
+			<tarfileset dir="." prefix="Dazelvodkaya">
+				<include name="bin"/>
+				<include name="*.jar"/>
+				<include name="dazelvodkaya.jar"/>
+				<!-- include name="editor.jar"/ -->
+				<include name="Readme.txt"/>
+ 			</tarfileset>
+		</tar>
+		<!-- Applies the bzip2 task to compress it -->
+		<!--bzip2 zipfile="dazelvodkaya.tar.bz2" src="dazelvodkaya.tar" /-->
+	</target>
+
+	<target name="clean" description="clean up">
+		<!-- Delete the ${build} directroy trees -->
+		<!--delete dir="${doc}" /-->
+	</target>
+
+	<target name="distclean" depends="clean" description="clean all">
+		<!-- Delete the jar file -->
+		<delete file="dazelvodkaya.jar" />
+		<delete file="editor.jar" />
+		<delete file="dazelvodkaya.tar" />
+	</target>
+
+</project>

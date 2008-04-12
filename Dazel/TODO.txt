@@ -1,0 +1,19 @@
+- Moteurs de jeu
+- trouver un nouveau nom pour le paquet commun : un joli nom de projet
+- rendre l'animation du bonhomme un peu plus fluide. 
+
+
+*** Sprites animés!
+
+- KeyHandlers : Pools
+- commencer le jeu
+- son
+- Exceptions
+- Systeme d'events
+
+- Constantiser :
+	* MenuCursor
+
+
+
+

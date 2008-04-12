@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+  <quest name="Default quest">
+    <map name="main" l="1" h="1" startx="1" starty="1">
+      <minimap x="0" y="0" light="true">
+      	<giant_spider x="4" y="4">
+        	<other_left x="3" y="4"></other_left>
+        	<other_right x="5" y="4"></other_right>
+	    </giant_spider>
+	  </minimap>
+    </map>
+  </quest>

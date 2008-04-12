@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+  <quest name="Default quest">
+    <map name="main" l="1" h="1" startx="1" starty="1">
+      <minimap x="0" y="0" light="true">
+      	<ganon x="3" y="4">
+			<up_right x="4" y="4"></up_right>
+			<bot_left x="5" y="3"></bot_left>
+			<bot_right x="5" y="4"></bot_right>
+    	</ganon>
+      </minimap>
+    </map>
+  </quest>
