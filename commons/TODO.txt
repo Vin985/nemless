@@ -1,0 +1,6 @@
+- Sprites :
+ Virer les coodonnées?
+ Ajouter les sprites animes
+ 		 les sprites avec etat
+
+ Interface de sprite vs classe abstraite? 
