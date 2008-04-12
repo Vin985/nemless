@@ -1,0 +1,3737 @@
+<?xml version="1.0"?>
+
+  <quest name="Default quest">
+    <map name="donjon1" l="1" h="1" startx="1" starty="1">
+      <minimap x="0" y="0" light="true">
+        <decor x="7" y="10" obstacle="false" type="entrance" link="main">
+          <hide x="7" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="10" obstacle="true" type="wall_down_left1_brown">
+          <hide x="6" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="10" obstacle="true" type="wall_down_left1_brown">
+          <hide x="5" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="4" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="3" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="2" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="1" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="10" obstacle="true" type="corner_bot_left_brown">
+          <hide x="0" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="9" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="8" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="7" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="6" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="4" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="3" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="2" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="1" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="0" obstacle="true" type="corner_up_left_brown">
+          <hide x="0" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="0" obstacle="true" type="corner_up_right_brown">
+          <hide x="15" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="10" obstacle="true" type="corner_bot_right_brown">
+          <hide x="15" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="5" obstacle="false" type="door_open_left_brown">
+          <hide x="0" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="8" obstacle="false" type="ground_brown">
+          <hide x="1" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="7" obstacle="false" type="ground_brown">
+          <hide x="1" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="9" obstacle="false" type="ground_brown">
+          <hide x="1" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="9" obstacle="false" type="ground_brown">
+          <hide x="2" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="9" obstacle="false" type="ground_brown">
+          <hide x="3" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="9" obstacle="false" type="ground_brown">
+          <hide x="4" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="9" obstacle="false" type="ground_brown">
+          <hide x="5" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="9" obstacle="false" type="ground_brown">
+          <hide x="6" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="9" obstacle="false" type="ground2_brown">
+          <hide x="7" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="9" obstacle="false" type="ground_brown">
+          <hide x="8" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="9" obstacle="false" type="ground_brown">
+          <hide x="9" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="9" obstacle="false" type="ground_brown">
+          <hide x="10" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="9" obstacle="false" type="ground_brown">
+          <hide x="11" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="9" obstacle="false" type="ground_brown">
+          <hide x="12" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="9" obstacle="false" type="ground_brown">
+          <hide x="13" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="9" obstacle="false" type="ground_brown">
+          <hide x="14" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="8" obstacle="false" type="ground_brown">
+          <hide x="14" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="7" obstacle="false" type="ground_brown">
+          <hide x="14" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="6" obstacle="false" type="ground_brown">
+          <hide x="14" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="5" obstacle="false" type="ground_brown">
+          <hide x="14" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="4" obstacle="false" type="ground_brown">
+          <hide x="14" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="3" obstacle="false" type="ground_brown">
+          <hide x="14" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="1" obstacle="false" type="ground_brown">
+          <hide x="14" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="2" obstacle="false" type="ground_brown">
+          <hide x="14" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="13" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="14" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="12" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="1" obstacle="false" type="ground_brown">
+          <hide x="2" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="1" obstacle="false" type="ground_brown">
+          <hide x="1" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="2" obstacle="false" type="ground_brown">
+          <hide x="1" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="3" obstacle="false" type="ground_brown">
+          <hide x="1" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="4" obstacle="false" type="ground_brown">
+          <hide x="1" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="5" obstacle="false" type="ground2_brown">
+          <hide x="1" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="6" obstacle="false" type="ground_brown">
+          <hide x="1" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="8" obstacle="false" type="ground_brown">
+          <hide x="2" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="8" obstacle="false" type="ground_brown">
+          <hide x="3" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="8" obstacle="false" type="ground_brown">
+          <hide x="5" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="7" obstacle="false" type="ground_brown">
+          <hide x="4" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="4" y="8" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="4" y="8" obstacle="false">plain</hide>
+        </block>
+        <decor x="6" y="8" obstacle="false" type="ground_brown">
+          <hide x="6" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="8" obstacle="false" type="ground2_brown">
+          <hide x="7" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="8" obstacle="false" type="ground_brown">
+          <hide x="8" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="8" obstacle="false" type="ground_brown">
+          <hide x="9" y="8" obstacle="false">plain</hide>
+        </decor>
+        <block x="10" y="8" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="10" y="8" obstacle="false">plain</hide>
+        </block>
+        <decor x="12" y="8" obstacle="false" type="ground_brown">
+          <hide x="12" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="8" obstacle="false" type="ground_brown">
+          <hide x="11" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="8" obstacle="false" type="ground_brown">
+          <hide x="13" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="7" obstacle="false" type="ground_brown">
+          <hide x="13" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="6" obstacle="false" type="ground_brown">
+          <hide x="13" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="5" obstacle="false" type="ground_brown">
+          <hide x="13" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="4" obstacle="false" type="ground_brown">
+          <hide x="13" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="2" obstacle="false" type="ground_brown">
+          <hide x="13" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="1" obstacle="false" type="ground_brown">
+          <hide x="13" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="3" obstacle="false" type="ground_brown">
+          <hide x="13" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="1" obstacle="false" type="ground_brown">
+          <hide x="12" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="2" obstacle="false" type="ground_brown">
+          <hide x="12" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="3" obstacle="false" type="ground_brown">
+          <hide x="12" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="4" obstacle="false" type="ground_brown">
+          <hide x="12" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="5" obstacle="false" type="ground_brown">
+          <hide x="12" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="6" obstacle="false" type="ground_brown">
+          <hide x="12" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="7" obstacle="false" type="ground_brown">
+          <hide x="12" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="7" obstacle="false" type="ground_brown">
+          <hide x="11" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="5" obstacle="false" type="ground_brown">
+          <hide x="11" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="6" obstacle="false" type="ground_brown">
+          <hide x="11" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="4" obstacle="false" type="ground_brown">
+          <hide x="11" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="3" obstacle="false" type="ground_brown">
+          <hide x="11" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="2" obstacle="false" type="ground_brown">
+          <hide x="11" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="1" obstacle="false" type="ground_brown">
+          <hide x="11" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="1" obstacle="false" type="ground_brown">
+          <hide x="9" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="1" obstacle="false" type="ground_brown">
+          <hide x="10" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="2" obstacle="false" type="ground_brown">
+          <hide x="10" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="2" obstacle="false" type="ground_brown">
+          <hide x="9" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="2" obstacle="false" type="ground_brown">
+          <hide x="8" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="2" obstacle="false" type="ground2_brown">
+          <hide x="7" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="2" obstacle="false" type="ground_brown">
+          <hide x="6" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="2" obstacle="false" type="ground_brown">
+          <hide x="4" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="2" obstacle="false" type="ground_brown">
+          <hide x="5" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="2" obstacle="false" type="ground_brown">
+          <hide x="3" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="3" obstacle="false" type="ground_brown">
+          <hide x="2" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="2" obstacle="false" type="ground_brown">
+          <hide x="2" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="3" obstacle="false" type="ground_brown">
+          <hide x="3" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="3" obstacle="false" type="ground_brown">
+          <hide x="5" y="3" obstacle="false">plain</hide>
+        </decor>
+        <block x="4" y="3" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="4" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="6" y="3" obstacle="false" type="ground_brown">
+          <hide x="6" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="3" obstacle="false" type="ground2_brown">
+          <hide x="7" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="3" obstacle="false" type="ground_brown">
+          <hide x="8" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="3" obstacle="false" type="ground_brown">
+          <hide x="9" y="3" obstacle="false">plain</hide>
+        </decor>
+        <block x="10" y="3" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="10" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="10" y="4" obstacle="false" type="ground_brown">
+          <hide x="10" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="5" obstacle="false" type="ground_brown">
+          <hide x="10" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="6" obstacle="false" type="ground_brown">
+          <hide x="10" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="7" obstacle="false" type="ground_brown">
+          <hide x="10" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="7" obstacle="false" type="ground_brown">
+          <hide x="9" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="6" obstacle="false" type="ground_brown">
+          <hide x="9" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="5" obstacle="false" type="ground_brown">
+          <hide x="9" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="4" obstacle="false" type="ground_brown">
+          <hide x="9" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="4" obstacle="false" type="ground2_brown">
+          <hide x="7" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="4" obstacle="false" type="ground_brown">
+          <hide x="8" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="5" obstacle="false" type="ground_brown">
+          <hide x="8" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="6" obstacle="false" type="ground_brown">
+          <hide x="8" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="7" obstacle="false" type="ground_brown">
+          <hide x="8" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="7" obstacle="false" type="ground2_brown">
+          <hide x="7" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="6" obstacle="false" type="ground2_brown">
+          <hide x="7" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="5" obstacle="false" type="ground2_brown">
+          <hide x="7" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="6" obstacle="false" type="ground_brown">
+          <hide x="6" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="7" obstacle="false" type="ground_brown">
+          <hide x="6" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="7" obstacle="false" type="ground_brown">
+          <hide x="5" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="6" obstacle="false" type="ground_brown">
+          <hide x="5" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="5" obstacle="false" type="ground2_brown">
+          <hide x="5" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="5" obstacle="false" type="ground2_brown">
+          <hide x="6" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="4" obstacle="false" type="ground_brown">
+          <hide x="6" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="4" obstacle="false" type="ground_brown">
+          <hide x="5" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="4" obstacle="false" type="ground_brown">
+          <hide x="4" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="5" obstacle="false" type="ground2_brown">
+          <hide x="4" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="6" obstacle="false" type="ground_brown">
+          <hide x="4" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="7" obstacle="false" type="ground_brown">
+          <hide x="3" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="6" obstacle="false" type="ground_brown">
+          <hide x="3" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="5" obstacle="false" type="ground2_brown">
+          <hide x="3" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="4" obstacle="false" type="ground_brown">
+          <hide x="3" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="4" obstacle="false" type="ground_brown">
+          <hide x="2" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="5" obstacle="false" type="ground2_brown">
+          <hide x="2" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="6" obstacle="false" type="ground_brown">
+          <hide x="2" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="7" obstacle="false" type="ground_brown">
+          <hide x="2" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="1" obstacle="false" type="ground_brown">
+          <hide x="3" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="1" obstacle="false" type="ground_brown">
+          <hide x="4" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="1" obstacle="false" type="ground_brown">
+          <hide x="5" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="1" obstacle="false" type="ground_brown">
+          <hide x="6" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="1" obstacle="false" type="ground2_brown">
+          <hide x="7" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="1" obstacle="false" type="ground_brown">
+          <hide x="8" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="0" obstacle="false" type="door_open_up_brown">
+          <hide x="7" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="1" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="2" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="3" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="4" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="5" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="6" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="8" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="9" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="10" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="11" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="1" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="2" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="3" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="4" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="5" obstacle="true" type="wall_right_middle_brown">
+          <hide x="15" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="6" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="7" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="8" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="9" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="8" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="9" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="10" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="11" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="13" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="12" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="14" y="10" obstacle="false">plain</hide>
+        </decor>
+        <spider x="12" y="5"></spider>
+        <spider x="3" y="5"></spider>
+      </minimap>
+      <minimap x="0" y="1" light="true">
+        <decor x="7" y="10" obstacle="false" type="door_open_down_brown">
+          <hide x="7" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="6" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="5" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="4" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="3" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="2" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="1" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="10" obstacle="true" type="corner_bot_left_brown">
+          <hide x="0" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="14" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="10" obstacle="true" type="corner_bot_right_brown">
+          <hide x="15" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="8" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="9" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="10" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="11" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="12" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="13" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="0" obstacle="true" type="corner_up_left_brown">
+          <hide x="0" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="0" obstacle="true" type="corner_up_right_brown">
+          <hide x="15" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="9" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="8" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="7" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="6" obstacle="true" type="wall_left_middle_brown">
+          <hide x="0" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="5" obstacle="true" type="wall_left_middle_brown">
+          <hide x="0" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="4" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="3" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="2" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="1" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="1" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="2" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="4" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="3" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="5" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="6" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="9" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="10" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="11" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="13" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="12" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="14" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="9" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="8" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="7" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="1" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="2" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="3" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="4" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="6" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="5" obstacle="false" type="door_open_right_brown">
+          <hide x="15" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="0" obstacle="false" type="door_open_up_brown">
+          <hide x="7" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="8" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="9" obstacle="false" type="ground2_brown">
+          <hide x="1" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="9" obstacle="false" type="ground2_brown">
+          <hide x="2" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="8" obstacle="false" type="ground2_brown">
+          <hide x="2" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="8" obstacle="false" type="ground2_brown">
+          <hide x="1" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="7" obstacle="false" type="ground2_brown">
+          <hide x="1" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="2" y="7" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="2" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="2" y="6" obstacle="false" type="ground2_brown">
+          <hide x="2" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="6" obstacle="false" type="ground2_brown">
+          <hide x="1" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="5" obstacle="false" type="ground2_brown">
+          <hide x="1" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="5" obstacle="false" type="ground2_brown">
+          <hide x="2" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="4" obstacle="false" type="ground2_brown">
+          <hide x="2" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="4" obstacle="false" type="ground2_brown">
+          <hide x="1" y="4" obstacle="false">plain</hide>
+        </decor>
+        <block x="2" y="3" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="2" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="3" obstacle="false" type="ground2_brown">
+          <hide x="1" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="1" obstacle="false" type="ground2_brown">
+          <hide x="1" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="2" obstacle="false" type="ground2_brown">
+          <hide x="1" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="2" obstacle="false" type="ground2_brown">
+          <hide x="2" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="1" obstacle="false" type="ground2_brown">
+          <hide x="2" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="1" obstacle="false" type="ground2_brown">
+          <hide x="3" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="1" obstacle="false" type="ground2_brown">
+          <hide x="4" y="1" obstacle="false">plain</hide>
+        </decor>
+        <block x="5" y="1" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="5" y="1" obstacle="false">plain</hide>
+        </block>
+        <decor x="6" y="1" obstacle="false" type="ground2_brown">
+          <hide x="6" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="1" obstacle="false" type="ground2_brown">
+          <hide x="8" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="1" obstacle="false" type="ground2_brown">
+          <hide x="7" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="2" obstacle="false" type="ground2_brown">
+          <hide x="7" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="3" obstacle="false" type="ground2_brown">
+          <hide x="7" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="4" obstacle="false" type="ground2_brown">
+          <hide x="7" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="5" obstacle="false" type="ground2_brown">
+          <hide x="7" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="5" obstacle="false" type="ground2_brown">
+          <hide x="6" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="5" obstacle="false" type="ground2_brown">
+          <hide x="4" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="5" obstacle="false" type="ground2_brown">
+          <hide x="3" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="5" obstacle="false" type="ground2_brown">
+          <hide x="5" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="4" obstacle="false" type="ground2_brown">
+          <hide x="5" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="4" obstacle="false" type="ground2_brown">
+          <hide x="6" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="3" obstacle="false" type="ground2_brown">
+          <hide x="6" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="2" obstacle="false" type="ground2_brown">
+          <hide x="6" y="2" obstacle="false">plain</hide>
+        </decor>
+        <block x="5" y="3" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="5" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="5" y="2" obstacle="false" type="ground2_brown">
+          <hide x="5" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="2" obstacle="false" type="ground2_brown">
+          <hide x="4" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="3" obstacle="false" type="ground2_brown">
+          <hide x="4" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="4" obstacle="false" type="ground2_brown">
+          <hide x="4" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="4" obstacle="false" type="ground2_brown">
+          <hide x="3" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="3" obstacle="false" type="ground2_brown">
+          <hide x="3" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="2" obstacle="false" type="ground2_brown">
+          <hide x="3" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="6" obstacle="false" type="ground2_brown">
+          <hide x="4" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="6" obstacle="false" type="ground2_brown">
+          <hide x="3" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="7" obstacle="false" type="ground2_brown">
+          <hide x="3" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="8" obstacle="false" type="ground2_brown">
+          <hide x="3" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="9" obstacle="false" type="ground2_brown">
+          <hide x="3" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="9" obstacle="false" type="ground2_brown">
+          <hide x="4" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="8" obstacle="false" type="ground2_brown">
+          <hide x="4" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="7" obstacle="false" type="ground2_brown">
+          <hide x="4" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="5" y="7" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="5" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="5" y="8" obstacle="false" type="ground2_brown">
+          <hide x="5" y="8" obstacle="false">plain</hide>
+        </decor>
+        <block x="5" y="9" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="5" y="9" obstacle="false">plain</hide>
+        </block>
+        <decor x="6" y="9" obstacle="false" type="ground2_brown">
+          <hide x="6" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="8" obstacle="false" type="ground2_brown">
+          <hide x="6" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="7" obstacle="false" type="ground2_brown">
+          <hide x="6" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="6" obstacle="false" type="ground2_brown">
+          <hide x="6" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="6" obstacle="false" type="ground2_brown">
+          <hide x="5" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="6" obstacle="false" type="ground2_brown">
+          <hide x="7" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="7" obstacle="false" type="ground2_brown">
+          <hide x="7" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="8" obstacle="false" type="ground2_brown">
+          <hide x="7" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="9" obstacle="false" type="ground2_brown">
+          <hide x="7" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="9" obstacle="false" type="ground2_brown">
+          <hide x="8" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="8" obstacle="false" type="ground2_brown">
+          <hide x="8" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="7" obstacle="false" type="ground2_brown">
+          <hide x="8" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="6" obstacle="false" type="ground2_brown">
+          <hide x="8" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="5" obstacle="false" type="ground2_brown">
+          <hide x="8" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="4" obstacle="false" type="ground2_brown">
+          <hide x="8" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="3" obstacle="false" type="ground2_brown">
+          <hide x="8" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="2" obstacle="false" type="ground2_brown">
+          <hide x="8" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="2" obstacle="false" type="ground2_brown">
+          <hide x="9" y="2" obstacle="false">plain</hide>
+        </decor>
+        <block x="9" y="1" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="9" y="1" obstacle="false">plain</hide>
+        </block>
+        <block x="9" y="3" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="9" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="10" y="4" obstacle="false" type="ground2_brown">
+          <hide x="10" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="4" obstacle="false" type="ground2_brown">
+          <hide x="9" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="5" obstacle="false" type="ground2_brown">
+          <hide x="9" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="6" obstacle="false" type="ground2_brown">
+          <hide x="9" y="6" obstacle="false">plain</hide>
+        </decor>
+        <block x="9" y="7" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="9" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="9" y="8" obstacle="false" type="ground2_brown">
+          <hide x="9" y="8" obstacle="false">plain</hide>
+        </decor>
+        <block x="9" y="9" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="9" y="9" obstacle="false">plain</hide>
+        </block>
+        <decor x="10" y="9" obstacle="false" type="ground2_brown">
+          <hide x="10" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="8" obstacle="false" type="ground2_brown">
+          <hide x="10" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="7" obstacle="false" type="ground2_brown">
+          <hide x="10" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="6" obstacle="false" type="ground2_brown">
+          <hide x="10" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="5" obstacle="false" type="ground2_brown">
+          <hide x="10" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="3" obstacle="false" type="ground2_brown">
+          <hide x="10" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="2" obstacle="false" type="ground2_brown">
+          <hide x="10" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="1" obstacle="false" type="ground2_brown">
+          <hide x="10" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="1" obstacle="false" type="ground2_brown">
+          <hide x="11" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="1" obstacle="false" type="ground2_brown">
+          <hide x="12" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="1" obstacle="false" type="ground2_brown">
+          <hide x="13" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="1" obstacle="false" type="ground2_brown">
+          <hide x="14" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="2" obstacle="false" type="ground2_brown">
+          <hide x="14" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="2" obstacle="false" type="ground2_brown">
+          <hide x="13" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="2" obstacle="false" type="ground2_brown">
+          <hide x="12" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="2" obstacle="false" type="ground2_brown">
+          <hide x="11" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="3" obstacle="false" type="ground2_brown">
+          <hide x="11" y="3" obstacle="false">plain</hide>
+        </decor>
+        <block x="12" y="3" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="12" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="13" y="3" obstacle="false" type="ground2_brown">
+          <hide x="13" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="3" obstacle="false" type="ground2_brown">
+          <hide x="14" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="4" obstacle="false" type="ground2_brown">
+          <hide x="14" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="4" obstacle="false" type="ground2_brown">
+          <hide x="12" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="4" obstacle="false" type="ground2_brown">
+          <hide x="13" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="4" obstacle="false" type="ground2_brown">
+          <hide x="11" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="5" obstacle="false" type="ground2_brown">
+          <hide x="11" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="5" obstacle="false" type="ground2_brown">
+          <hide x="13" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="5" obstacle="false" type="ground2_brown">
+          <hide x="14" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="5" obstacle="false" type="ground2_brown">
+          <hide x="12" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="6" obstacle="false" type="ground2_brown">
+          <hide x="11" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="6" obstacle="false" type="ground2_brown">
+          <hide x="12" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="6" obstacle="false" type="ground2_brown">
+          <hide x="13" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="6" obstacle="false" type="ground2_brown">
+          <hide x="14" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="7" obstacle="false" type="ground2_brown">
+          <hide x="14" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="12" y="7" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="12" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="13" y="7" obstacle="false" type="ground2_brown">
+          <hide x="13" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="7" obstacle="false" type="ground2_brown">
+          <hide x="11" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="8" obstacle="false" type="ground2_brown">
+          <hide x="11" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="8" obstacle="false" type="ground2_brown">
+          <hide x="12" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="8" obstacle="false" type="ground2_brown">
+          <hide x="13" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="8" obstacle="false" type="ground2_brown">
+          <hide x="14" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="9" obstacle="false" type="ground2_brown">
+          <hide x="13" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="9" obstacle="false" type="ground2_brown">
+          <hide x="14" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="9" obstacle="false" type="ground2_brown">
+          <hide x="12" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="9" obstacle="false" type="ground2_brown">
+          <hide x="11" y="9" obstacle="false">plain</hide>
+        </decor>
+        <eye_guard x="7" y="5"></eye_guard>
+        <spider x="3" y="7"></spider>
+        <spider x="11" y="6"></spider>
+        <spider x="3" y="2"></spider>
+      </minimap>
+      <minimap x="1" y="1" light="true">
+        <decor x="0" y="9" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="8" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="7" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="6" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="4" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="3" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="2" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="1" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="10" obstacle="true" type="corner_bot_left_brown">
+          <hide x="0" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="14" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="10" obstacle="true" type="corner_bot_right_brown">
+          <hide x="15" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="0" obstacle="true" type="corner_up_left_brown">
+          <hide x="0" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="0" obstacle="true" type="corner_up_right_brown">
+          <hide x="15" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="5" obstacle="false" type="door_open_left_brown">
+          <hide x="0" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="1" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="2" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="3" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="4" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="5" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="10" obstacle="true" type="wall_down_middle_brown">
+          <hide x="7" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="6" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="8" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="9" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="10" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="11" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="12" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="13" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="9" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="8" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="7" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="6" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="5" obstacle="true" type="wall_right_middle_brown">
+          <hide x="15" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="4" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="3" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="2" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="1" obstacle="false" type="ground2_brown">
+          <hide x="14" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="1" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="14" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="13" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="12" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="10" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="11" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="0" obstacle="true" type="wall_up_right1_brown">
+          <hide x="9" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="0" obstacle="true" type="wall_up_middle_brown">
+          <hide x="7" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="0" obstacle="true" type="wall_up_middle_brown">
+          <hide x="8" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="1" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="2" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="3" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="4" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="5" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="6" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="9" obstacle="false" type="ground2_brown">
+          <hide x="1" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="9" obstacle="false" type="ground2_brown">
+          <hide x="2" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="9" obstacle="false" type="ground2_brown">
+          <hide x="4" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="9" obstacle="false" type="ground2_brown">
+          <hide x="3" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="9" obstacle="false" type="ground2_brown">
+          <hide x="5" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="9" obstacle="false" type="ground2_brown">
+          <hide x="6" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="9" obstacle="false" type="ground2_brown">
+          <hide x="7" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="9" obstacle="false" type="ground2_brown">
+          <hide x="8" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="9" obstacle="false" type="ground2_brown">
+          <hide x="10" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="9" obstacle="false" type="ground2_brown">
+          <hide x="9" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="9" obstacle="false" type="ground2_brown">
+          <hide x="11" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="9" obstacle="false" type="ground2_brown">
+          <hide x="12" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="9" obstacle="false" type="ground2_brown">
+          <hide x="13" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="9" obstacle="false" type="ground2_brown">
+          <hide x="14" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="8" obstacle="false" type="ground2_brown">
+          <hide x="14" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="8" obstacle="false" type="ground2_brown">
+          <hide x="1" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="8" obstacle="false" type="ground2_brown">
+          <hide x="3" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="8" obstacle="false" type="ground2_brown">
+          <hide x="2" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="8" obstacle="false" type="ground2_brown">
+          <hide x="5" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="8" obstacle="false" type="ground2_brown">
+          <hide x="4" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="8" obstacle="false" type="ground2_brown">
+          <hide x="6" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="8" obstacle="false" type="ground2_brown">
+          <hide x="7" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="8" obstacle="false" type="ground2_brown">
+          <hide x="8" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="8" obstacle="false" type="ground2_brown">
+          <hide x="9" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="8" obstacle="false" type="ground2_brown">
+          <hide x="10" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="8" obstacle="false" type="ground2_brown">
+          <hide x="11" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="8" obstacle="false" type="ground2_brown">
+          <hide x="12" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="8" obstacle="false" type="ground2_brown">
+          <hide x="13" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="7" obstacle="false" type="ground2_brown">
+          <hide x="14" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="7" obstacle="false" type="ground2_brown">
+          <hide x="13" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="11" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="11" y="7" obstacle="false">plain</hide>
+        </block>
+        <block x="10" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="10" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="12" y="7" obstacle="false" type="ground2_brown">
+          <hide x="12" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="9" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="9" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="7" y="7" obstacle="false" type="ground2_brown">
+          <hide x="7" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="7" obstacle="false" type="ground2_brown">
+          <hide x="8" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="7" obstacle="false" type="ground2_brown">
+          <hide x="6" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="4" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="4" y="7" obstacle="false">plain</hide>
+        </block>
+        <block x="5" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="5" y="7" obstacle="false">plain</hide>
+        </block>
+        <block x="3" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="2" y="7" obstacle="false" type="ground2_brown">
+          <hide x="2" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="7" obstacle="false" type="ground2_brown">
+          <hide x="1" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="6" obstacle="false" type="ground2_brown">
+          <hide x="1" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="6" obstacle="false" type="ground2_brown">
+          <hide x="2" y="6" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="6" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="6" obstacle="false">plain</hide>
+        </block>
+        <block x="3" y="5" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="5" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="5" obstacle="false" type="ground2_brown">
+          <hide x="1" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="5" obstacle="false" type="ground2_brown">
+          <hide x="2" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="4" obstacle="false" type="ground2_brown">
+          <hide x="2" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="4" obstacle="false" type="ground2_brown">
+          <hide x="1" y="4" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="4" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="4" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="3" obstacle="false" type="ground2_brown">
+          <hide x="1" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="3" obstacle="false" type="ground2_brown">
+          <hide x="2" y="3" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="3" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="2" obstacle="false" type="ground2_brown">
+          <hide x="1" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="2" obstacle="false" type="ground2_brown">
+          <hide x="2" y="2" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="2" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="2" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="1" obstacle="false" type="ground2_brown">
+          <hide x="1" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="1" obstacle="false" type="ground2_brown">
+          <hide x="2" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="1" obstacle="false" type="ground2_brown">
+          <hide x="3" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="6" obstacle="false" type="ground2_brown">
+          <hide x="4" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="6" obstacle="false" type="ground2_brown">
+          <hide x="5" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="6" obstacle="false" type="ground2_brown">
+          <hide x="6" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="6" obstacle="false" type="ground2_brown">
+          <hide x="8" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="6" obstacle="false" type="ground2_brown">
+          <hide x="7" y="6" obstacle="false">plain</hide>
+        </decor>
+        <block x="11" y="5" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="11" y="5" obstacle="false">plain</hide>
+        </block>
+        <decor x="10" y="6" obstacle="false" type="ground2_brown">
+          <hide x="10" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="5" obstacle="false" type="ground2_brown">
+          <hide x="9" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="5" obstacle="false" type="ground2_brown">
+          <hide x="10" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="6" obstacle="false" type="ground2_brown">
+          <hide x="9" y="6" obstacle="false">plain</hide>
+        </decor>
+        <block x="11" y="6" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="11" y="6" obstacle="false">plain</hide>
+        </block>
+        <decor x="12" y="6" obstacle="false" type="ground2_brown">
+          <hide x="12" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="5" obstacle="false" type="ground2_brown">
+          <hide x="13" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="5" obstacle="false" type="ground2_brown">
+          <hide x="12" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="6" obstacle="false" type="ground2_brown">
+          <hide x="13" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="6" obstacle="false" type="ground2_brown">
+          <hide x="14" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="5" obstacle="false" type="ground2_brown">
+          <hide x="14" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="4" obstacle="false" type="ground2_brown">
+          <hide x="14" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="3" obstacle="false" type="ground2_brown">
+          <hide x="13" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="3" obstacle="false" type="ground2_brown">
+          <hide x="14" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="2" obstacle="false" type="ground2_brown">
+          <hide x="14" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="1" obstacle="false" type="ground2_brown">
+          <hide x="4" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="1" obstacle="false" type="ground2_brown">
+          <hide x="6" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="1" obstacle="false" type="ground2_brown">
+          <hide x="5" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="1" obstacle="false" type="ground2_brown">
+          <hide x="8" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="1" obstacle="false" type="ground2_brown">
+          <hide x="7" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="1" obstacle="false" type="ground2_brown">
+          <hide x="9" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="1" obstacle="false" type="ground2_brown">
+          <hide x="10" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="1" obstacle="false" type="ground2_brown">
+          <hide x="11" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="1" obstacle="false" type="ground2_brown">
+          <hide x="12" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="1" obstacle="false" type="ground2_brown">
+          <hide x="13" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="2" obstacle="false" type="ground2_brown">
+          <hide x="13" y="2" obstacle="false">plain</hide>
+        </decor>
+        <block x="11" y="2" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="11" y="2" obstacle="false">plain</hide>
+        </block>
+        <decor x="12" y="2" obstacle="false" type="ground2_brown">
+          <hide x="12" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="2" obstacle="false" type="ground2_brown">
+          <hide x="9" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="2" obstacle="false" type="ground2_brown">
+          <hide x="10" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="2" obstacle="false" type="ground2_brown">
+          <hide x="8" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="2" obstacle="false" type="ground2_brown">
+          <hide x="6" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="2" obstacle="false" type="ground2_brown">
+          <hide x="7" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="2" obstacle="false" type="ground2_brown">
+          <hide x="5" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="2" obstacle="false" type="ground2_brown">
+          <hide x="4" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="3" obstacle="false" type="ground2_brown">
+          <hide x="4" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="3" obstacle="false" type="ground2_brown">
+          <hide x="6" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="3" obstacle="false" type="ground2_brown">
+          <hide x="5" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="3" obstacle="false" type="ground2_brown">
+          <hide x="7" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="3" obstacle="false" type="ground2_brown">
+          <hide x="8" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="3" obstacle="false" type="ground2_brown">
+          <hide x="9" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="3" obstacle="false" type="ground2_brown">
+          <hide x="10" y="3" obstacle="false">plain</hide>
+        </decor>
+        <block x="11" y="3" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="11" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="12" y="3" obstacle="false" type="ground2_brown">
+          <hide x="12" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="4" obstacle="false" type="ground2_brown">
+          <hide x="12" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="4" obstacle="false" type="ground2_brown">
+          <hide x="13" y="4" obstacle="false">plain</hide>
+        </decor>
+        <block x="11" y="4" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="11" y="4" obstacle="false">plain</hide>
+        </block>
+        <block x="10" y="4" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="10" y="4" obstacle="false">plain</hide>
+        </block>
+        <decor x="9" y="4" obstacle="false" type="ground2_brown">
+          <hide x="9" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="5" obstacle="false" type="ground2_brown">
+          <hide x="8" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="4" obstacle="false" type="ground2_brown">
+          <hide x="8" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="4" obstacle="false" type="ground2_brown">
+          <hide x="7" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="5" obstacle="false" type="ground2_brown">
+          <hide x="7" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="5" obstacle="false" type="ground2_brown">
+          <hide x="6" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="4" obstacle="false" type="ground2_brown">
+          <hide x="6" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="4" obstacle="false" type="ground2_brown">
+          <hide x="5" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="5" obstacle="false" type="ground2_brown">
+          <hide x="5" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="5" obstacle="false" type="ground2_brown">
+          <hide x="4" y="5" obstacle="false">plain</hide>
+        </decor>
+        <block x="4" y="4" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="4" y="4" obstacle="false">plain</hide>
+        </block>
+        <spider x="7" y="2"></spider>
+        <spider x="7" y="5"></spider>
+        <spider x="12" y="8"></spider>
+        <blob x="4" y="9"></blob>
+        <blob x="4" y="2"></blob>
+      </minimap>
+      <minimap x="-1" y="0" light="true">
+        <decor x="0" y="10" obstacle="true" type="corner_bot_left_brown">
+          <hide x="0" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="10" obstacle="true" type="corner_bot_right_brown">
+          <hide x="15" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="0" obstacle="true" type="corner_up_left_brown">
+          <hide x="0" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="0" obstacle="true" type="corner_up_right_brown">
+          <hide x="15" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="5" obstacle="false" type="door_open_right_brown">
+          <hide x="15" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="10" obstacle="true" type="wall_down_middle_brown">
+          <hide x="7" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="8" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="9" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="10" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="11" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="12" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="13" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="14" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="1" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="2" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="3" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="4" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="5" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="6" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="9" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="8" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="7" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="6" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="4" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="3" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="2" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="1" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="1" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="2" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="3" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="4" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="5" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="6" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="0" obstacle="true" type="wall_up_middle_brown">
+          <hide x="7" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="8" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="9" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="10" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="11" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="12" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="13" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="14" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="1" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="2" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="3" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="4" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="5" obstacle="true" type="wall_left_middle_brown">
+          <hide x="0" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="6" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="7" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="8" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="9" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="9" obstacle="false" type="ground_brown">
+          <hide x="1" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="9" obstacle="false" type="ground_brown">
+          <hide x="2" y="9" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="9" obstacle="true" type="statue2_brown" moveable="0">
+          <hide x="3" y="9" obstacle="false">plain</hide>
+        </block>
+        <decor x="4" y="9" obstacle="false" type="ground_brown">
+          <hide x="4" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="9" obstacle="false" type="ground_brown">
+          <hide x="5" y="9" obstacle="false">plain</hide>
+        </decor>
+        <block x="6" y="9" obstacle="true" type="statue2_brown" moveable="0">
+          <hide x="6" y="9" obstacle="false">plain</hide>
+        </block>
+        <decor x="7" y="9" obstacle="false" type="ground_brown">
+          <hide x="7" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="9" obstacle="false" type="ground_brown">
+          <hide x="8" y="9" obstacle="false">plain</hide>
+        </decor>
+        <block x="9" y="9" obstacle="true" type="statue2_brown" moveable="0">
+          <hide x="9" y="9" obstacle="false">plain</hide>
+        </block>
+        <decor x="10" y="9" obstacle="false" type="ground_brown">
+          <hide x="10" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="9" obstacle="false" type="ground_brown">
+          <hide x="12" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="9" obstacle="false" type="ground_brown">
+          <hide x="11" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="9" obstacle="false" type="ground_brown">
+          <hide x="13" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="9" obstacle="false" type="ground_brown">
+          <hide x="14" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="5" obstacle="false" type="ground2_brown">
+          <hide x="14" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="5" obstacle="false" type="ground2_brown">
+          <hide x="13" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="5" obstacle="false" type="ground2_brown">
+          <hide x="11" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="5" obstacle="false" type="ground2_brown">
+          <hide x="12" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="5" obstacle="false" type="ground2_brown">
+          <hide x="10" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="5" obstacle="false" type="ground2_brown">
+          <hide x="9" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="6" obstacle="false" type="ground2_brown">
+          <hide x="8" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="7" obstacle="false" type="ground2_brown">
+          <hide x="8" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="8" obstacle="false" type="ground2_brown">
+          <hide x="8" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="8" obstacle="false" type="ground2_brown">
+          <hide x="7" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="8" obstacle="false" type="ground2_brown">
+          <hide x="6" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="8" obstacle="false" type="ground2_brown">
+          <hide x="5" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="8" obstacle="false" type="ground2_brown">
+          <hide x="4" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="7" obstacle="false" type="ground2_brown">
+          <hide x="4" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="6" obstacle="false" type="ground2_brown">
+          <hide x="4" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="5" obstacle="false" type="ground2_brown">
+          <hide x="4" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="4" obstacle="false" type="ground2_brown">
+          <hide x="4" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="3" obstacle="false" type="ground2_brown">
+          <hide x="4" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="2" obstacle="false" type="ground2_brown">
+          <hide x="4" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="2" obstacle="false" type="ground2_brown">
+          <hide x="5" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="2" obstacle="false" type="ground2_brown">
+          <hide x="6" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="2" obstacle="false" type="ground2_brown">
+          <hide x="7" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="2" obstacle="false" type="ground2_brown">
+          <hide x="8" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="3" obstacle="false" type="ground2_brown">
+          <hide x="8" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="4" obstacle="false" type="ground2_brown">
+          <hide x="8" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="5" obstacle="false" type="ground2_brown">
+          <hide x="8" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="7" obstacle="false" type="ground2_brown">
+          <hide x="7" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="7" obstacle="false" type="ground2_brown">
+          <hide x="6" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="7" obstacle="false" type="ground2_brown">
+          <hide x="5" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="6" obstacle="false" type="ground2_brown">
+          <hide x="5" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="6" obstacle="false" type="ground2_brown">
+          <hide x="6" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="6" obstacle="false" type="ground2_brown">
+          <hide x="7" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="5" obstacle="false" type="ground2_brown">
+          <hide x="7" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="5" obstacle="false" type="ground2_brown">
+          <hide x="6" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="5" obstacle="false" type="ground2_brown">
+          <hide x="5" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="4" obstacle="false" type="ground2_brown">
+          <hide x="5" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="4" obstacle="false" type="ground2_brown">
+          <hide x="6" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="4" obstacle="false" type="ground2_brown">
+          <hide x="7" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="3" obstacle="false" type="ground2_brown">
+          <hide x="7" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="3" obstacle="false" type="ground2_brown">
+          <hide x="6" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="3" obstacle="false" type="ground2_brown">
+          <hide x="5" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="8" obstacle="false" type="ground_brown">
+          <hide x="1" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="8" obstacle="false" type="ground_brown">
+          <hide x="2" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="8" obstacle="false" type="ground_brown">
+          <hide x="3" y="8" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="7" obstacle="true" type="statue2_brown" moveable="0">
+          <hide x="3" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="2" y="7" obstacle="false" type="ground_brown">
+          <hide x="2" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="7" obstacle="false" type="ground_brown">
+          <hide x="1" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="6" obstacle="false" type="ground_brown">
+          <hide x="1" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="6" obstacle="false" type="ground_brown">
+          <hide x="2" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="6" obstacle="false" type="ground_brown">
+          <hide x="3" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="5" obstacle="false" type="ground_brown">
+          <hide x="3" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="5" obstacle="false" type="ground_brown">
+          <hide x="2" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="5" obstacle="false" type="ground_brown">
+          <hide x="1" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="4" obstacle="false" type="ground_brown">
+          <hide x="1" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="4" obstacle="false" type="ground_brown">
+          <hide x="2" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="4" obstacle="false" type="ground_brown">
+          <hide x="3" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="3" obstacle="false" type="ground_brown">
+          <hide x="1" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="3" obstacle="false" type="ground_brown">
+          <hide x="2" y="3" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="3" obstacle="true" type="statue1_brown" moveable="0">
+          <hide x="3" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="2" obstacle="false" type="ground_brown">
+          <hide x="1" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="2" obstacle="false" type="ground_brown">
+          <hide x="2" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="2" obstacle="false" type="ground_brown">
+          <hide x="3" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="1" obstacle="false" type="ground_brown">
+          <hide x="1" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="1" obstacle="false" type="ground_brown">
+          <hide x="2" y="1" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="1" obstacle="true" type="statue1_brown" moveable="0">
+          <hide x="3" y="1" obstacle="false">plain</hide>
+        </block>
+        <decor x="4" y="1" obstacle="false" type="ground_brown">
+          <hide x="4" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="1" obstacle="false" type="ground_brown">
+          <hide x="5" y="1" obstacle="false">plain</hide>
+        </decor>
+        <block x="6" y="1" obstacle="true" type="statue1_brown" moveable="0">
+          <hide x="6" y="1" obstacle="false">plain</hide>
+        </block>
+        <decor x="8" y="1" obstacle="false" type="ground_brown">
+          <hide x="8" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="1" obstacle="false" type="ground_brown">
+          <hide x="7" y="1" obstacle="false">plain</hide>
+        </decor>
+        <block x="9" y="1" obstacle="true" type="statue1_brown" moveable="0">
+          <hide x="9" y="1" obstacle="false">plain</hide>
+        </block>
+        <decor x="9" y="2" obstacle="false" type="ground_brown">
+          <hide x="9" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="3" obstacle="false" type="ground_brown">
+          <hide x="9" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="4" obstacle="false" type="ground_brown">
+          <hide x="9" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="4" obstacle="false" type="ground_brown">
+          <hide x="10" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="4" obstacle="false" type="ground_brown">
+          <hide x="11" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="4" obstacle="false" type="ground_brown">
+          <hide x="12" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="4" obstacle="false" type="ground_brown">
+          <hide x="13" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="4" obstacle="false" type="ground_brown">
+          <hide x="14" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="3" obstacle="false" type="ground_brown">
+          <hide x="11" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="2" obstacle="false" type="ground_brown">
+          <hide x="11" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="3" obstacle="false" type="ground_brown">
+          <hide x="10" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="2" obstacle="false" type="ground_brown">
+          <hide x="10" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="1" obstacle="false" type="ground_brown">
+          <hide x="10" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="1" obstacle="false" type="ground_brown">
+          <hide x="11" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="1" obstacle="false" type="ground_brown">
+          <hide x="12" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="2" obstacle="false" type="ground_brown">
+          <hide x="12" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="3" obstacle="false" type="ground_brown">
+          <hide x="13" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="3" obstacle="false" type="ground_brown">
+          <hide x="12" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="3" obstacle="false" type="ground_brown">
+          <hide x="14" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="2" obstacle="false" type="ground_brown">
+          <hide x="14" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="2" obstacle="false" type="ground_brown">
+          <hide x="13" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="1" obstacle="false" type="ground_brown">
+          <hide x="13" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="1" obstacle="false" type="ground_brown">
+          <hide x="14" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="6" obstacle="false" type="ground_brown">
+          <hide x="9" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="7" obstacle="false" type="ground_brown">
+          <hide x="9" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="8" obstacle="false" type="ground_brown">
+          <hide x="9" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="8" obstacle="false" type="ground_brown">
+          <hide x="11" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="8" obstacle="false" type="ground_brown">
+          <hide x="10" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="7" obstacle="false" type="ground_brown">
+          <hide x="10" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="6" obstacle="false" type="ground_brown">
+          <hide x="10" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="7" obstacle="false" type="ground_brown">
+          <hide x="11" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="6" obstacle="false" type="ground_brown">
+          <hide x="11" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="6" obstacle="false" type="ground_brown">
+          <hide x="12" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="7" obstacle="false" type="ground_brown">
+          <hide x="12" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="8" obstacle="false" type="ground_brown">
+          <hide x="12" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="8" obstacle="false" type="ground_brown">
+          <hide x="13" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="7" obstacle="false" type="ground_brown">
+          <hide x="13" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="6" obstacle="false" type="ground_brown">
+          <hide x="13" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="6" obstacle="false" type="ground_brown">
+          <hide x="14" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="7" obstacle="false" type="ground_brown">
+          <hide x="14" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="8" obstacle="false" type="ground_brown">
+          <hide x="14" y="8" obstacle="false">plain</hide>
+        </decor>
+        <eye_guard x="6" y="5"></eye_guard>
+        <blob x="10" y="8"></blob>
+        <blob x="12" y="4"></blob>
+        <blob x="5" y="3"></blob>
+        <moblin x="7" y="7"></moblin>
+      </minimap>
+      <minimap x="0" y="2" light="true">
+        <decor x="7" y="10" obstacle="false" type="door_open_down_brown">
+          <hide x="7" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="5" obstacle="false" type="door_open_left_brown">
+          <hide x="0" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="1" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="2" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="3" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="4" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="5" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="6" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="8" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="9" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="10" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="12" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="11" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="13" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="14" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="1" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="2" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="3" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="4" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="5" obstacle="true" type="wall_right_middle_brown">
+          <hide x="15" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="6" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="7" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="8" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="9" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="9" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="8" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="7" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="6" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="4" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="3" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="2" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="1" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="1" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="2" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="3" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="4" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="5" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="6" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="0" obstacle="true" type="wall_up_middle_brown">
+          <hide x="7" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="8" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="9" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="10" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="11" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="12" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="13" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="14" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="10" obstacle="true" type="corner_bot_left_brown">
+          <hide x="0" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="10" obstacle="true" type="corner_bot_right_brown">
+          <hide x="15" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="0" obstacle="true" type="corner_up_left_brown">
+          <hide x="0" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="0" obstacle="true" type="corner_up_right_brown">
+          <hide x="15" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="9" obstacle="false" type="ground2_brown">
+          <hide x="1" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="9" obstacle="false" type="ground2_brown">
+          <hide x="2" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="8" obstacle="false" type="ground2_brown">
+          <hide x="2" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="8" obstacle="false" type="ground2_brown">
+          <hide x="1" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="7" obstacle="false" type="ground2_brown">
+          <hide x="1" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="7" obstacle="false" type="ground2_brown">
+          <hide x="2" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="6" obstacle="false" type="ground2_brown">
+          <hide x="2" y="6" obstacle="false">plain</hide>
+        </decor>
+        <block x="1" y="6" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="1" y="6" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="5" obstacle="false" type="ground2_brown">
+          <hide x="1" y="5" obstacle="false">plain</hide>
+        </decor>
+        <block x="2" y="5" obstacle="true" type="bloc_brown" moveable="1000">
+          <hide x="2" y="5" obstacle="false">plain</hide>
+        </block>
+        <decor x="2" y="4" obstacle="false" type="ground2_brown">
+          <hide x="2" y="4" obstacle="false">plain</hide>
+        </decor>
+        <block x="1" y="4" obstacle="true" type="bloc_brown" moveable="1000">
+          <hide x="1" y="4" obstacle="false">plain</hide>
+        </block>
+        <decor x="1" y="1" obstacle="false" type="ground2_brown">
+          <hide x="1" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="2" obstacle="false" type="ground2_brown">
+          <hide x="1" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="3" obstacle="false" type="ground2_brown">
+          <hide x="1" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="3" obstacle="false" type="ground2_brown">
+          <hide x="2" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="2" obstacle="false" type="ground2_brown">
+          <hide x="2" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="1" obstacle="false" type="ground2_brown">
+          <hide x="2" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="1" obstacle="false" type="ground2_brown">
+          <hide x="3" y="1" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="2" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="2" obstacle="false">plain</hide>
+        </block>
+        <decor x="3" y="4" obstacle="false" type="ground2_brown">
+          <hide x="3" y="4" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="3" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="3" y="5" obstacle="false" type="ground2_brown">
+          <hide x="3" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="6" obstacle="false" type="ground2_brown">
+          <hide x="3" y="6" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="3" y="9" obstacle="false" type="ground2_brown">
+          <hide x="3" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="8" obstacle="false" type="ground2_brown">
+          <hide x="4" y="8" obstacle="false">plain</hide>
+        </decor>
+        <block x="3" y="8" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="3" y="8" obstacle="false">plain</hide>
+        </block>
+        <decor x="4" y="9" obstacle="false" type="ground2_brown">
+          <hide x="4" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="9" obstacle="false" type="ground2_brown">
+          <hide x="5" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="9" obstacle="false" type="ground2_brown">
+          <hide x="6" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="9" obstacle="false" type="ground2_brown">
+          <hide x="8" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="9" obstacle="false" type="ground2_brown">
+          <hide x="7" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="9" obstacle="false" type="ground2_brown">
+          <hide x="9" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="9" obstacle="false" type="ground2_brown">
+          <hide x="10" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="9" obstacle="false" type="ground2_brown">
+          <hide x="11" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="9" obstacle="false" type="ground2_brown">
+          <hide x="13" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="9" obstacle="false" type="ground2_brown">
+          <hide x="12" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="9" obstacle="false" type="ground2_brown">
+          <hide x="14" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="8" obstacle="false" type="ground2_brown">
+          <hide x="14" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="7" obstacle="false" type="ground2_brown">
+          <hide x="14" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="5" obstacle="false" type="ground2_brown">
+          <hide x="14" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="6" obstacle="false" type="ground2_brown">
+          <hide x="14" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="8" obstacle="false" type="ground2_brown">
+          <hide x="5" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="8" obstacle="false" type="ground2_brown">
+          <hide x="6" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="8" obstacle="false" type="ground2_brown">
+          <hide x="8" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="8" obstacle="false" type="ground2_brown">
+          <hide x="7" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="8" obstacle="false" type="ground2_brown">
+          <hide x="10" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="8" obstacle="false" type="ground2_brown">
+          <hide x="9" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="8" obstacle="false" type="ground2_brown">
+          <hide x="11" y="8" obstacle="false">plain</hide>
+        </decor>
+        <block x="12" y="8" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="12" y="8" obstacle="false">plain</hide>
+        </block>
+        <decor x="13" y="8" obstacle="false" type="ground2_brown">
+          <hide x="13" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="7" obstacle="false" type="ground2_brown">
+          <hide x="13" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="7" obstacle="false" type="ground2_brown">
+          <hide x="7" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="7" obstacle="false" type="ground2_brown">
+          <hide x="5" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="7" obstacle="false" type="ground2_brown">
+          <hide x="4" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="7" obstacle="false" type="ground2_brown">
+          <hide x="6" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="6" obstacle="false" type="ground2_brown">
+          <hide x="6" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="6" obstacle="false" type="ground2_brown">
+          <hide x="5" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="6" obstacle="false" type="ground2_brown">
+          <hide x="4" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="5" obstacle="false" type="ground2_brown">
+          <hide x="4" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="4" obstacle="false" type="ground2_brown">
+          <hide x="4" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="3" obstacle="false" type="ground2_brown">
+          <hide x="4" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="2" obstacle="false" type="ground2_brown">
+          <hide x="4" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="1" obstacle="false" type="ground2_brown">
+          <hide x="4" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="1" obstacle="false" type="ground2_brown">
+          <hide x="5" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="2" obstacle="false" type="ground2_brown">
+          <hide x="5" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="3" obstacle="false" type="ground2_brown">
+          <hide x="5" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="4" obstacle="false" type="ground2_brown">
+          <hide x="5" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="5" obstacle="false" type="ground2_brown">
+          <hide x="5" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="5" obstacle="false" type="ground2_brown">
+          <hide x="6" y="5" obstacle="false">plain</hide>
+        </decor>
+        <block x="7" y="5" obstacle="true" type="bloc_brown" moveable="1000">
+          <hide x="7" y="5" obstacle="false">plain</hide>
+        </block>
+        <decor x="7" y="6" obstacle="false" type="ground2_brown">
+          <hide x="7" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="7" obstacle="false" type="ground2_brown">
+          <hide x="8" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="7" obstacle="false" type="ground2_brown">
+          <hide x="10" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="7" obstacle="false" type="ground2_brown">
+          <hide x="9" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="7" obstacle="false" type="ground2_brown">
+          <hide x="11" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="12" y="7" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="12" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="13" y="6" obstacle="false" type="ground2_brown">
+          <hide x="13" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="6" obstacle="false" type="ground2_brown">
+          <hide x="12" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="6" obstacle="false" type="ground2_brown">
+          <hide x="10" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="6" obstacle="false" type="ground2_brown">
+          <hide x="11" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="6" obstacle="false" type="ground2_brown">
+          <hide x="9" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="6" obstacle="false" type="ground2_brown">
+          <hide x="8" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="5" obstacle="false" type="ground2_brown">
+          <hide x="8" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="5" obstacle="false" type="ground2_brown">
+          <hide x="9" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="5" obstacle="false" type="ground2_brown">
+          <hide x="10" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="5" obstacle="false" type="ground2_brown">
+          <hide x="11" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="5" obstacle="false" type="ground2_brown">
+          <hide x="12" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="5" obstacle="false" type="ground2_brown">
+          <hide x="13" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="4" obstacle="false" type="ground2_brown">
+          <hide x="6" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="4" obstacle="false" type="ground2_brown">
+          <hide x="7" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="4" obstacle="false" type="ground2_brown">
+          <hide x="9" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="4" obstacle="false" type="ground2_brown">
+          <hide x="8" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="4" obstacle="false" type="ground2_brown">
+          <hide x="10" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="4" obstacle="false" type="ground2_brown">
+          <hide x="11" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="4" obstacle="false" type="ground2_brown">
+          <hide x="12" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="4" obstacle="false" type="ground2_brown">
+          <hide x="13" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="4" obstacle="false" type="ground2_brown">
+          <hide x="14" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="3" obstacle="false" type="ground2_brown">
+          <hide x="7" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="3" obstacle="false" type="ground2_brown">
+          <hide x="6" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="3" obstacle="false" type="ground2_brown">
+          <hide x="8" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="3" obstacle="false" type="ground2_brown">
+          <hide x="10" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="3" obstacle="false" type="ground2_brown">
+          <hide x="9" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="3" obstacle="false" type="ground2_brown">
+          <hide x="11" y="3" obstacle="false">plain</hide>
+        </decor>
+        <block x="12" y="3" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="12" y="3" obstacle="false">plain</hide>
+        </block>
+        <decor x="13" y="3" obstacle="false" type="ground2_brown">
+          <hide x="13" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="3" obstacle="false" type="ground2_brown">
+          <hide x="14" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="2" obstacle="false" type="ground2_brown">
+          <hide x="14" y="2" obstacle="false">plain</hide>
+        </decor>
+        <block x="12" y="2" obstacle="true" type="bloc_brown" moveable="0">
+          <hide x="12" y="2" obstacle="false">plain</hide>
+        </block>
+        <decor x="6" y="2" obstacle="false" type="ground2_brown">
+          <hide x="6" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="2" obstacle="false" type="ground2_brown">
+          <hide x="8" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="2" obstacle="false" type="ground2_brown">
+          <hide x="7" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="2" obstacle="false" type="ground2_brown">
+          <hide x="9" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="2" obstacle="false" type="ground2_brown">
+          <hide x="10" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="2" obstacle="false" type="ground2_brown">
+          <hide x="11" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="2" obstacle="false" type="ground2_brown">
+          <hide x="13" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="1" obstacle="false" type="ground2_brown">
+          <hide x="6" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="1" obstacle="false" type="ground2_brown">
+          <hide x="7" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="1" obstacle="false" type="ground2_brown">
+          <hide x="8" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="1" obstacle="false" type="ground2_brown">
+          <hide x="9" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="1" obstacle="false" type="ground2_brown">
+          <hide x="10" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="1" obstacle="false" type="ground2_brown">
+          <hide x="11" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="1" obstacle="false" type="ground2_brown">
+          <hide x="12" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="1" obstacle="false" type="ground2_brown">
+          <hide x="13" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="1" obstacle="false" type="ground2_brown">
+          <hide x="14" y="1" obstacle="false">plain</hide>
+        </decor>
+        <spider x="7" y="7"></spider>
+        <spider x="7" y="3"></spider>
+        <spider x="11" y="5"></spider>
+        <spider x="4" y="5"></spider>
+      </minimap>
+      <minimap x="-1" y="2" light="true">
+        <decor x="0" y="10" obstacle="true" type="corner_bot_left_brown">
+          <hide x="0" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="10" obstacle="true" type="corner_bot_right_brown">
+          <hide x="15" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="0" obstacle="true" type="corner_up_left_brown">
+          <hide x="0" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="0" obstacle="true" type="corner_up_right_brown">
+          <hide x="15" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="5" obstacle="false" type="door_open_right_brown">
+          <hide x="15" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="8" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="10" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="9" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="11" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="12" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="13" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="14" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="1" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="2" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="3" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="4" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="5" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="6" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="10" obstacle="true" type="wall_down_middle_brown">
+          <hide x="7" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="9" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="8" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="7" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="6" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="5" obstacle="true" type="wall_left_middle_brown">
+          <hide x="0" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="4" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="3" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="2" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="1" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="9" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="7" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="8" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="6" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="4" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="3" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="2" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="1" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="1" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="2" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="3" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="4" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="5" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="0" obstacle="true" type="wall_up_left2_brown">
+          <hide x="6" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="0" obstacle="false" type="door_open_up_brown">
+          <hide x="7" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="8" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="9" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="10" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="11" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="12" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="13" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="14" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="9" obstacle="false" type="ground2_brown">
+          <hide x="1" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="9" obstacle="false" type="ground2_brown">
+          <hide x="2" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="9" obstacle="false" type="ground2_brown">
+          <hide x="4" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="9" obstacle="false" type="ground2_brown">
+          <hide x="3" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="9" obstacle="false" type="ground2_brown">
+          <hide x="5" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="9" obstacle="false" type="ground2_brown">
+          <hide x="6" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="9" obstacle="false" type="ground2_brown">
+          <hide x="7" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="9" obstacle="false" type="ground2_brown">
+          <hide x="8" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="9" obstacle="false" type="ground2_brown">
+          <hide x="9" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="9" obstacle="false" type="ground2_brown">
+          <hide x="10" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="9" obstacle="false" type="ground2_brown">
+          <hide x="11" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="9" obstacle="false" type="ground2_brown">
+          <hide x="12" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="9" obstacle="false" type="ground2_brown">
+          <hide x="13" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="9" obstacle="false" type="ground2_brown">
+          <hide x="14" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="8" obstacle="false" type="ground2_brown">
+          <hide x="14" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="8" obstacle="false" type="ground2_brown">
+          <hide x="1" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="8" obstacle="false" type="ground2_brown">
+          <hide x="2" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="8" obstacle="false" type="ground2_brown">
+          <hide x="3" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="8" obstacle="false" type="ground2_brown">
+          <hide x="4" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="8" obstacle="false" type="ground2_brown">
+          <hide x="6" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="8" obstacle="false" type="ground2_brown">
+          <hide x="5" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="8" obstacle="false" type="ground2_brown">
+          <hide x="7" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="8" obstacle="false" type="ground2_brown">
+          <hide x="9" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="8" obstacle="false" type="ground2_brown">
+          <hide x="8" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="8" obstacle="false" type="ground2_brown">
+          <hide x="10" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="8" obstacle="false" type="ground2_brown">
+          <hide x="11" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="8" obstacle="false" type="ground2_brown">
+          <hide x="12" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="8" obstacle="false" type="ground2_brown">
+          <hide x="13" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="7" obstacle="false" type="ground2_brown">
+          <hide x="14" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="7" obstacle="false" type="ground2_brown">
+          <hide x="1" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="7" obstacle="false" type="ground2_brown">
+          <hide x="2" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="7" obstacle="false" type="ground2_brown">
+          <hide x="3" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="7" obstacle="false" type="ground2_brown">
+          <hide x="4" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="7" obstacle="false" type="ground2_brown">
+          <hide x="5" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="7" obstacle="false" type="ground2_brown">
+          <hide x="6" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="7" obstacle="false" type="ground2_brown">
+          <hide x="7" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="7" obstacle="false" type="ground2_brown">
+          <hide x="9" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="7" obstacle="false" type="ground2_brown">
+          <hide x="8" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="7" obstacle="false" type="ground2_brown">
+          <hide x="10" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="7" obstacle="false" type="ground2_brown">
+          <hide x="11" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="7" obstacle="false" type="ground2_brown">
+          <hide x="12" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="7" obstacle="false" type="ground2_brown">
+          <hide x="13" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="6" obstacle="false" type="ground2_brown">
+          <hide x="1" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="6" obstacle="false" type="ground2_brown">
+          <hide x="2" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="6" obstacle="false" type="ground2_brown">
+          <hide x="4" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="6" obstacle="false" type="ground2_brown">
+          <hide x="3" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="6" obstacle="false" type="ground2_brown">
+          <hide x="6" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="6" obstacle="false" type="ground2_brown">
+          <hide x="5" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="6" obstacle="false" type="ground2_brown">
+          <hide x="7" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="6" obstacle="false" type="ground2_brown">
+          <hide x="8" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="6" obstacle="false" type="ground2_brown">
+          <hide x="9" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="6" obstacle="false" type="ground2_brown">
+          <hide x="11" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="6" obstacle="false" type="ground2_brown">
+          <hide x="10" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="6" obstacle="false" type="ground2_brown">
+          <hide x="12" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="6" obstacle="false" type="ground2_brown">
+          <hide x="14" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="6" obstacle="false" type="ground2_brown">
+          <hide x="13" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="5" obstacle="false" type="ground2_brown">
+          <hide x="14" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="5" obstacle="false" type="ground2_brown">
+          <hide x="1" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="5" obstacle="false" type="ground2_brown">
+          <hide x="2" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="5" obstacle="false" type="ground2_brown">
+          <hide x="4" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="5" obstacle="false" type="ground2_brown">
+          <hide x="3" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="5" obstacle="false" type="ground2_brown">
+          <hide x="5" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="5" obstacle="false" type="ground2_brown">
+          <hide x="6" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="5" obstacle="false" type="ground2_brown">
+          <hide x="7" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="5" obstacle="false" type="ground2_brown">
+          <hide x="8" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="5" obstacle="false" type="ground2_brown">
+          <hide x="9" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="5" obstacle="false" type="ground2_brown">
+          <hide x="10" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="5" obstacle="false" type="ground2_brown">
+          <hide x="11" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="5" obstacle="false" type="ground2_brown">
+          <hide x="12" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="5" obstacle="false" type="ground2_brown">
+          <hide x="13" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="4" obstacle="false" type="ground2_brown">
+          <hide x="1" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="4" obstacle="false" type="ground2_brown">
+          <hide x="2" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="4" obstacle="false" type="ground2_brown">
+          <hide x="3" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="4" obstacle="false" type="ground2_brown">
+          <hide x="5" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="4" obstacle="false" type="ground2_brown">
+          <hide x="4" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="4" obstacle="false" type="ground2_brown">
+          <hide x="6" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="4" obstacle="false" type="ground2_brown">
+          <hide x="7" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="4" obstacle="false" type="ground2_brown">
+          <hide x="8" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="4" obstacle="false" type="ground2_brown">
+          <hide x="9" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="4" obstacle="false" type="ground2_brown">
+          <hide x="11" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="4" obstacle="false" type="ground2_brown">
+          <hide x="10" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="4" obstacle="false" type="ground2_brown">
+          <hide x="12" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="4" obstacle="false" type="ground2_brown">
+          <hide x="13" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="4" obstacle="false" type="ground2_brown">
+          <hide x="14" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="3" obstacle="false" type="ground2_brown">
+          <hide x="2" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="3" obstacle="false" type="ground2_brown">
+          <hide x="1" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="3" obstacle="false" type="ground2_brown">
+          <hide x="3" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="3" obstacle="false" type="ground2_brown">
+          <hide x="4" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="3" obstacle="false" type="ground2_brown">
+          <hide x="5" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="3" obstacle="false" type="ground2_brown">
+          <hide x="6" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="3" obstacle="false" type="ground2_brown">
+          <hide x="7" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="3" obstacle="false" type="ground2_brown">
+          <hide x="8" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="3" obstacle="false" type="ground2_brown">
+          <hide x="9" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="3" obstacle="false" type="ground2_brown">
+          <hide x="10" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="3" obstacle="false" type="ground2_brown">
+          <hide x="11" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="3" obstacle="false" type="ground2_brown">
+          <hide x="13" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="3" obstacle="false" type="ground2_brown">
+          <hide x="12" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="3" obstacle="false" type="ground2_brown">
+          <hide x="14" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="1" obstacle="false" type="ground2_brown">
+          <hide x="1" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="2" obstacle="false" type="ground2_brown">
+          <hide x="1" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="2" obstacle="false" type="ground2_brown">
+          <hide x="2" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="1" obstacle="false" type="ground2_brown">
+          <hide x="2" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="1" obstacle="false" type="ground2_brown">
+          <hide x="3" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="2" obstacle="false" type="ground2_brown">
+          <hide x="3" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="2" obstacle="false" type="ground2_brown">
+          <hide x="4" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="2" obstacle="false" type="ground2_brown">
+          <hide x="5" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="2" obstacle="false" type="ground2_brown">
+          <hide x="6" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="2" obstacle="false" type="ground2_brown">
+          <hide x="7" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="2" obstacle="false" type="ground2_brown">
+          <hide x="8" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="2" obstacle="false" type="ground2_brown">
+          <hide x="10" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="2" obstacle="false" type="ground2_brown">
+          <hide x="9" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="2" obstacle="false" type="ground2_brown">
+          <hide x="12" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="2" obstacle="false" type="ground2_brown">
+          <hide x="11" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="2" obstacle="false" type="ground2_brown">
+          <hide x="13" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="2" obstacle="false" type="ground2_brown">
+          <hide x="14" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="1" obstacle="false" type="ground2_brown">
+          <hide x="4" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="1" obstacle="false" type="ground2_brown">
+          <hide x="5" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="1" obstacle="false" type="ground2_brown">
+          <hide x="7" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="1" obstacle="false" type="ground2_brown">
+          <hide x="6" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="1" obstacle="false" type="ground2_brown">
+          <hide x="8" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="1" obstacle="false" type="ground2_brown">
+          <hide x="9" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="1" obstacle="false" type="ground2_brown">
+          <hide x="10" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="1" obstacle="false" type="ground2_brown">
+          <hide x="11" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="1" obstacle="false" type="ground2_brown">
+          <hide x="12" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="1" obstacle="false" type="ground2_brown">
+          <hide x="13" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="1" obstacle="false" type="ground2_brown">
+          <hide x="14" y="1" obstacle="false">plain</hide>
+        </decor>
+      </minimap>
+      <minimap x="-1" y="3" light="true">
+        <decor x="7" y="10" obstacle="false" type="door_open_down_brown">
+          <hide x="7" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="1" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="2" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="3" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="4" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="6" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="10" obstacle="true" type="wall_down_left2_brown">
+          <hide x="5" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="8" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="9" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="10" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="11" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="12" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="13" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="10" obstacle="true" type="wall_down_right2_brown">
+          <hide x="14" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="10" obstacle="true" type="corner_bot_left_brown">
+          <hide x="0" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="10" obstacle="true" type="corner_bot_right_brown">
+          <hide x="15" y="10" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="0" obstacle="true" type="corner_up_left_brown">
+          <hide x="0" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="0" obstacle="true" type="corner_up_right_brown">
+          <hide x="15" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="1" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="2" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="3" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="4" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="5" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="0" obstacle="true" type="wall_up_left1_brown">
+          <hide x="6" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="0" obstacle="true" type="wall_up_middle_brown">
+          <hide x="7" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="8" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="9" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="10" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="11" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="12" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="14" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="0" obstacle="true" type="wall_up_right2_brown">
+          <hide x="13" y="0" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="9" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="8" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="7" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="6" obstacle="true" type="wall_left_down_brown">
+          <hide x="0" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="5" obstacle="true" type="wall_left_middle_brown">
+          <hide x="0" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="4" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="3" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="2" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="0" y="1" obstacle="true" type="wall_left_up_brown">
+          <hide x="0" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="9" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="8" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="7" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="6" obstacle="true" type="wall_right_down_brown">
+          <hide x="15" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="5" obstacle="true" type="wall_right_middle_brown">
+          <hide x="15" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="4" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="3" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="2" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="15" y="1" obstacle="true" type="wall_right_up_brown">
+          <hide x="15" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="9" obstacle="false" type="ground2_brown">
+          <hide x="1" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="9" obstacle="false" type="ground2_brown">
+          <hide x="2" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="9" obstacle="false" type="ground2_brown">
+          <hide x="3" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="9" obstacle="false" type="ground2_brown">
+          <hide x="4" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="9" obstacle="false" type="ground2_brown">
+          <hide x="5" y="9" obstacle="false">plain</hide>
+        </decor>
+        <block x="6" y="9" obstacle="true" type="statue1_brown" moveable="0">
+          <hide x="6" y="9" obstacle="false">plain</hide>
+        </block>
+        <decor x="7" y="9" obstacle="false" type="ground2_brown">
+          <hide x="7" y="9" obstacle="false">plain</hide>
+        </decor>
+        <block x="8" y="9" obstacle="true" type="statue2_brown" moveable="0">
+          <hide x="8" y="9" obstacle="false">plain</hide>
+        </block>
+        <decor x="9" y="9" obstacle="false" type="ground2_brown">
+          <hide x="9" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="9" obstacle="false" type="ground2_brown">
+          <hide x="11" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="9" obstacle="false" type="ground2_brown">
+          <hide x="10" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="9" obstacle="false" type="ground2_brown">
+          <hide x="12" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="9" obstacle="false" type="ground2_brown">
+          <hide x="13" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="9" obstacle="false" type="ground2_brown">
+          <hide x="14" y="9" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="8" obstacle="false" type="ground2_brown">
+          <hide x="1" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="8" obstacle="false" type="ground2_brown">
+          <hide x="2" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="7" obstacle="false" type="ground2_brown">
+          <hide x="2" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="7" obstacle="false" type="ground2_brown">
+          <hide x="1" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="6" obstacle="false" type="ground2_brown">
+          <hide x="1" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="6" obstacle="false" type="ground2_brown">
+          <hide x="3" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="6" obstacle="false" type="ground2_brown">
+          <hide x="2" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="5" obstacle="false" type="ground2_brown">
+          <hide x="2" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="5" obstacle="false" type="ground2_brown">
+          <hide x="1" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="4" obstacle="false" type="ground2_brown">
+          <hide x="1" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="3" obstacle="false" type="ground2_brown">
+          <hide x="1" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="2" obstacle="false" type="ground2_brown">
+          <hide x="1" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="1" y="1" obstacle="false" type="ground2_brown">
+          <hide x="1" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="1" obstacle="false" type="ground2_brown">
+          <hide x="2" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="2" obstacle="false" type="ground2_brown">
+          <hide x="2" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="4" obstacle="false" type="ground2_brown">
+          <hide x="2" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="2" y="3" obstacle="false" type="ground2_brown">
+          <hide x="2" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="4" obstacle="false" type="ground2_brown">
+          <hide x="3" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="5" obstacle="false" type="ground2_brown">
+          <hide x="3" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="7" obstacle="false" type="ground2_brown">
+          <hide x="3" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="8" obstacle="false" type="ground2_brown">
+          <hide x="3" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="8" obstacle="false" type="ground2_brown">
+          <hide x="4" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="8" obstacle="false" type="ground2_brown">
+          <hide x="5" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="8" obstacle="false" type="ground2_brown">
+          <hide x="6" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="8" obstacle="false" type="ground2_brown">
+          <hide x="7" y="8" obstacle="false">plain</hide>
+        </decor>
+        <block x="8" y="7" obstacle="true" type="statue2_brown" moveable="0">
+          <hide x="8" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="8" y="8" obstacle="false" type="ground2_brown">
+          <hide x="8" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="8" obstacle="false" type="ground2_brown">
+          <hide x="9" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="8" obstacle="false" type="ground2_brown">
+          <hide x="10" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="8" obstacle="false" type="ground2_brown">
+          <hide x="11" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="8" obstacle="false" type="ground2_brown">
+          <hide x="12" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="8" obstacle="false" type="ground2_brown">
+          <hide x="14" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="8" obstacle="false" type="ground2_brown">
+          <hide x="13" y="8" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="7" obstacle="false" type="ground2_brown">
+          <hide x="14" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="7" obstacle="false" type="ground2_brown">
+          <hide x="13" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="7" obstacle="false" type="ground2_brown">
+          <hide x="12" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="7" obstacle="false" type="ground2_brown">
+          <hide x="11" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="7" obstacle="false" type="ground2_brown">
+          <hide x="9" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="7" obstacle="false" type="ground2_brown">
+          <hide x="10" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="7" obstacle="false" type="ground2_brown">
+          <hide x="7" y="7" obstacle="false">plain</hide>
+        </decor>
+        <block x="6" y="7" obstacle="true" type="statue1_brown" moveable="0">
+          <hide x="6" y="7" obstacle="false">plain</hide>
+        </block>
+        <decor x="5" y="7" obstacle="false" type="ground2_brown">
+          <hide x="5" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="7" obstacle="false" type="ground2_brown">
+          <hide x="4" y="7" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="6" obstacle="false" type="ground2_brown">
+          <hide x="4" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="6" obstacle="false" type="ground2_brown">
+          <hide x="5" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="6" obstacle="false" type="ground2_brown">
+          <hide x="6" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="6" obstacle="false" type="ground2_brown">
+          <hide x="8" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="6" obstacle="false" type="ground2_brown">
+          <hide x="7" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="6" obstacle="false" type="ground2_brown">
+          <hide x="10" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="6" obstacle="false" type="ground2_brown">
+          <hide x="9" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="6" obstacle="false" type="ground2_brown">
+          <hide x="11" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="6" obstacle="false" type="ground2_brown">
+          <hide x="13" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="6" obstacle="false" type="ground2_brown">
+          <hide x="12" y="6" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="6" obstacle="false" type="ground2_brown">
+          <hide x="14" y="6" obstacle="false">plain</hide>
+        </decor>
+        <block x="4" y="5" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="4" y="5" obstacle="false">plain</hide>
+        </block>
+        <decor x="4" y="4" obstacle="false" type="ground2_brown">
+          <hide x="4" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="4" y="3" obstacle="false" type="ground2_brown">
+          <hide x="4" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="3" obstacle="false" type="ground2_brown">
+          <hide x="3" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="2" obstacle="false" type="ground2_brown">
+          <hide x="3" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="3" y="1" obstacle="false" type="ground2_brown">
+          <hide x="3" y="1" obstacle="false">plain</hide>
+        </decor>
+        <block x="4" y="2" obstacle="true" type="statue3_brown" moveable="0">
+          <hide x="4" y="2" obstacle="false">plain</hide>
+        </block>
+        <decor x="4" y="1" obstacle="false" type="ground2_brown">
+          <hide x="4" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="2" obstacle="false" type="ground2_brown">
+          <hide x="5" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="1" obstacle="false" type="ground2_brown">
+          <hide x="5" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="3" obstacle="false" type="ground2_brown">
+          <hide x="5" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="4" obstacle="false" type="ground2_brown">
+          <hide x="5" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="5" y="5" obstacle="false" type="ground2_brown">
+          <hide x="5" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="5" obstacle="false" type="ground2_brown">
+          <hide x="7" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="5" obstacle="false" type="ground2_brown">
+          <hide x="6" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="5" obstacle="false" type="ground2_brown">
+          <hide x="9" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="5" obstacle="false" type="ground2_brown">
+          <hide x="8" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="5" obstacle="false" type="ground2_brown">
+          <hide x="11" y="5" obstacle="false">plain</hide>
+        </decor>
+        <block x="10" y="5" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="10" y="5" obstacle="false">plain</hide>
+        </block>
+        <decor x="12" y="5" obstacle="false" type="ground2_brown">
+          <hide x="12" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="5" obstacle="false" type="ground2_brown">
+          <hide x="13" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="5" obstacle="false" type="ground2_brown">
+          <hide x="14" y="5" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="4" obstacle="false" type="ground2_brown">
+          <hide x="14" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="4" obstacle="false" type="ground2_brown">
+          <hide x="12" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="4" obstacle="false" type="ground2_brown">
+          <hide x="13" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="4" obstacle="false" type="ground2_brown">
+          <hide x="10" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="4" obstacle="false" type="ground2_brown">
+          <hide x="11" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="4" obstacle="false" type="ground2_brown">
+          <hide x="9" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="4" obstacle="false" type="ground2_brown">
+          <hide x="7" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="4" obstacle="false" type="ground2_brown">
+          <hide x="8" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="4" obstacle="false" type="ground2_brown">
+          <hide x="6" y="4" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="3" obstacle="false" type="ground2_brown">
+          <hide x="6" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="2" obstacle="false" type="ground2_brown">
+          <hide x="6" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="3" obstacle="false" type="ground2_brown">
+          <hide x="8" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="3" obstacle="false" type="ground2_brown">
+          <hide x="7" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="2" obstacle="false" type="ground2_brown">
+          <hide x="8" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="2" obstacle="false" type="ground2_brown">
+          <hide x="7" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="7" y="1" obstacle="false" type="ground2_brown">
+          <hide x="7" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="6" y="1" obstacle="false" type="ground2_brown">
+          <hide x="6" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="8" y="1" obstacle="false" type="ground2_brown">
+          <hide x="8" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="2" obstacle="false" type="ground2_brown">
+          <hide x="9" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="3" obstacle="false" type="ground2_brown">
+          <hide x="9" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="3" obstacle="false" type="ground2_brown">
+          <hide x="10" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="3" obstacle="false" type="ground2_brown">
+          <hide x="11" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="3" obstacle="false" type="ground2_brown">
+          <hide x="12" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="3" obstacle="false" type="ground2_brown">
+          <hide x="13" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="3" obstacle="false" type="ground2_brown">
+          <hide x="14" y="3" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="2" obstacle="false" type="ground2_brown">
+          <hide x="14" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="2" obstacle="false" type="ground2_brown">
+          <hide x="13" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="2" obstacle="false" type="ground2_brown">
+          <hide x="11" y="2" obstacle="false">plain</hide>
+        </decor>
+        <block x="10" y="2" obstacle="true" type="statue4_brown" moveable="0">
+          <hide x="10" y="2" obstacle="false">plain</hide>
+        </block>
+        <decor x="12" y="2" obstacle="false" type="ground2_brown">
+          <hide x="12" y="2" obstacle="false">plain</hide>
+        </decor>
+        <decor x="9" y="1" obstacle="false" type="ground2_brown">
+          <hide x="9" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="10" y="1" obstacle="false" type="ground2_brown">
+          <hide x="10" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="12" y="1" obstacle="false" type="ground2_brown">
+          <hide x="12" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="11" y="1" obstacle="false" type="ground2_brown">
+          <hide x="11" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="13" y="1" obstacle="false" type="ground2_brown">
+          <hide x="13" y="1" obstacle="false">plain</hide>
+        </decor>
+        <decor x="14" y="1" obstacle="false" type="ground2_brown">
+          <hide x="14" y="1" obstacle="false">plain</hide>
+        </decor>
+        <element x="7" y="3" obstacle="false">triforce_to_take</element>
+      </minimap>
+    </map>
+  </quest>

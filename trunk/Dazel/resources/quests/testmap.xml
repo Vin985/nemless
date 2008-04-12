@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<quest name="dazel">
+	<map name="main" l="3" h="3" startx="1" starty="1">
+		<minimap x="0" y="0" light="true">
+			<decor x="15" y="10" obstacle="true" type="rock_green">
+				<hide x="15" y="10" obstacle="false">stairs_green</hide>
+			</decor>
+			<decor x="14" y="9" obstacle="true" type="tree_small_green"></decor>
+			<decor x="3" y="4" obstacle="false" type="entrance"></decor>
+			<element x="2" y="4" obstacle="false">key</element>
+			<blob x="1" y="1"></blob>
+			<knight x="6" y="6"></knight>
+			<moblin x="5" y="5"></moblin>
+			<spider x="4" y="4"></spider>
+			<magician x="8" y="8" real="true"></magician>
+			<magician x="3" y="3" real="false"></magician>
+			<pike_bloc x="2" y="2"></pike_bloc>
+			<eye_guard x="7" y="7"></eye_guard>
+		</minimap>
+		<minimap x="2" y="1" light="true">
+			<decor x="15" y="10" obstacle="true">rock_green</decor>
+			<decor x="14" y="9" obstacle="true">tree_small_green</decor>
+			<decor x="13" y="8" obstacle="true">rock_brown</decor>	
+		</minimap>
+		<minimap x="1" y="2" light="true">
+			<decor x="1" y="2" obstacle="false">sand</decor>
+		</minimap>
+	</map>
+	<map name="donj" l="3" h="3" startx="1" starty="1">
+		<minimap x="0" y="0" light="true">
+			<decor x="15" y="10" obstacle="true" type="rock_green">
+				<hide x="15" y="10" obstacle="false">key</hide>
+			</decor>
+			<decor x="14" y="9" obstacle="true" type="tree_small_green"></decor>
+			<decor x="3" y="4" obstacle="false" type="entrance"></decor>
+			<element x="2" y="2" obstacle="false">key</element>
+		</minimap>
+		<minimap x="1" y="0" light="true">
+			<decor x="15" y="10" obstacle="true">rock_green</decor>
+			<decor x="14" y="9" obstacle="true">tree_small_green</decor>
+			<decor x="13" y="8" obstacle="true">rock_brown</decor>	
+		</minimap>
+		<minimap x="1" y="1" light="true">
+			<decor x="1" y="2" obstacle="false">sand</decor>
+		</minimap>
+	</map>
+</quest>

@@ -1,0 +1,29 @@
+23/01/2008
+Encore une fois pas grand chose n'a bouge.
+Parmi les petites nouveautés, j'ai decide de faire mumuse avec Maven pour
+le framework. Et en fait c'est assez sympa.
+Sinon j'ai decidé de tout refondre en moteurs: un moteur de jeu, un moteur graphique,
+un moteur de son. Les details restent encore a definir et je dois avouer que la j'ai
+un peu trop la tete dans le cul pour y reflechir mais ca viendra.
+
+08/01/2008
+Premier post de l'annee \o/
+Bon ca fait un bout de temps que ce fichier n'a pas ete mis a jour,
+non pas parce que rien n'a ete fait, mais plutot parce que pas pense.
+Au niveau des grosses nouveaute : un bonhomme qui bouge, la surface d'affichage
+qui a ete separee pour ne pas avoir de conflits avec les bordures, et plein
+de choses dont je me souviens plus du tout.
+Allez dodo!
+
+
+
+14/12/2007 
+Hop hop c'est reparti pour les news. Bon plein de nouveaux trucs:
+- Menu : ajout des premiers textes et des premiers comportements
+- Amélioration des Pools pour les dissocier de l'implementation
+- Création d'un 2nd game mode pour verifier le switch
+- Creation des packages commons en vue d'un jar à part
+
+Le jeu switche maintenant de game mode et sort quand on clique sur exit
+
+Bon c'est pas encore la panacee mais c'est deja rassurant :P
