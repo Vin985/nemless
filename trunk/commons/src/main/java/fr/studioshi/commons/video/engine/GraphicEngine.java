@@ -1,11 +1,26 @@
 package fr.studioshi.commons.video.engine;
 
-import fr.studioshi.commons.game.entities.VisualEntity;
+import java.awt.Canvas;
+import java.awt.Graphics;
 
-public interface GraphicEngine extends VisualEntity {
+import fr.studioshi.commons.game.Game;
 
-	public void destroy();
+public abstract class GraphicEngine {
 
-	public void init();
+	protected Graphics graphics;
+
+	public abstract void destroy();
+
+	public abstract void init(Canvas displaySurface);
+
+	public abstract void render(Game game);
+
+	public Graphics getGraphics() {
+		return graphics;
+	}
+
+	public void setGraphics(Graphics graphics) {
+		this.graphics = graphics;
+	}
 
 }
