@@ -1,7 +1,6 @@
-package fr.studioshi.commons.game.ui.keylistener;
+package fr.studioshi.commons.game.keylistener;
 
 import java.awt.event.KeyListener;
-
 
 public abstract class KeyHandler implements KeyListener {
 

@@ -4,19 +4,19 @@ import java.awt.Graphics;
 
 public class Graphic2DEngine implements GraphicEngine {
 
-	public void render(Graphics graphics) {
+	public void destroy() {
 		// TODO Auto-generated method stub
 
 	}
 
 	public void init() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
-	public void destroy() {
+	public void render(Graphics graphics) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

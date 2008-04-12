@@ -7,16 +7,15 @@ import java.awt.Toolkit;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-import fr.studioshi.commons.game.ui.gui.GUI;
-import fr.studioshi.commons.game.ui.keylistener.KeyHandler;
+import fr.studioshi.commons.game.keylistener.KeyHandler;
 
-public class GameWindow extends Frame {
+public abstract class GameWindow extends Frame {
 
 	private static final long serialVersionUID = 7367414966572180602L;
 
 	private Canvas displaySurface;
 
-	public GameWindow(GUI gui, KeyHandler keyListener, String name, int width,
+	public GameWindow(KeyHandler keyListener, String name, int width,
 			int height) {
 		super(name);
 
@@ -32,6 +31,7 @@ public class GameWindow extends Frame {
 
 		// Add window and key listeners
 		addWindowListener(new WindowAdapter() {
+			@Override
 			public void windowClosing(WindowEvent e) {
 				System.exit(0);
 			}

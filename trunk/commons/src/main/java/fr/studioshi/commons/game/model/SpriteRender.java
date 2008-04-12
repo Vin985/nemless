@@ -7,7 +7,7 @@ import fr.studioshi.commons.video.Sprite;
 public class SpriteRender extends GraphicElement {
 
 	protected Sprite sprite;
-	
+
 	public SpriteRender(Sprite sprite, Coordinates coords) {
 		this.coords = coords;
 		sprite.setCoords(this.coords);
@@ -18,12 +18,12 @@ public class SpriteRender extends GraphicElement {
 		return sprite;
 	}
 
-	public void setSprite(Sprite sprite) {
-		this.sprite = sprite;
-	}
-	
 	public void render(Graphics graphics) {
 		sprite.render(graphics);
 	}
-	
+
+	public void setSprite(Sprite sprite) {
+		this.sprite = sprite;
+	}
+
 }

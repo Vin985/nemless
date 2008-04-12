@@ -2,51 +2,82 @@ package fr.studioshi.commons.game.mode;
 
 import java.awt.Graphics;
 
+import fr.studioshi.commons.game.engine.GameEngine;
+import fr.studioshi.commons.game.keylistener.KeyHandler;
 import fr.studioshi.commons.game.model.GameElement;
-import fr.studioshi.commons.game.ui.gui.GUI;
-import fr.studioshi.commons.game.ui.keylistener.KeyHandler;
+import fr.studioshi.commons.game.model.GameObjects;
 
 public abstract class GameMode extends GameElement {
 
 	protected int gameMode;
 
-	protected GUI gui;
+	protected int changeMode;
+
+	protected GameEngine engine;
 
 	protected KeyHandler keyListener;
 
-	public int getGameMode() {
-		return gameMode;
+	protected GameObjects gameObjects;
+
+	public GameMode(int mode) {
+		this.gameMode = mode;
+		initGameObjects();
 	}
 
-	public GUI getGui() {
-		return gui;
+	public abstract void initGameObjects();
+
+	@Override
+	public void playSound() {
+		soundPlayer.playSound();
+	}
+
+	@Override
+	public void process() {
+		engine.process();
+	}
+
+	@Override
+	public void render(Graphics graphics) {
+		visualRenderer.render(graphics);
+	}
+
+	public GameEngine getEngine() {
+		return engine;
+	}
+
+	public int getChangeMode() {
+		return changeMode;
+	}
+
+	public GameObjects getGameObjects() {
+		return gameObjects;
+	}
+
+	public int getGameMode() {
+		return gameMode;
 	}
 
 	public KeyHandler getKeyListener() {
 		return keyListener;
 	}
 
-	public void playSound() {
-		gui.playSound();
+	public void setChangeMode(int changeMode) {
+		this.changeMode = changeMode;
 	}
 
-	public void process() {
-		gui.process();
-	}
-
-	public void render(Graphics graphics) {
-		gui.render(graphics);
+	public void setEngine(GameEngine engine) {
+		this.engine = engine;
 	}
 
 	public void setGameMode(int gameMode) {
 		this.gameMode = gameMode;
 	}
 
-	public void setGui(GUI gui) {
-		this.gui = gui;
-	}
-
 	public void setKeyListener(KeyHandler keyListener) {
 		this.keyListener = keyListener;
+	}
+
+	public void setGameObjects(GameObjects gameObjects) {
+		this.gameObjects = gameObjects;
 	}
 }

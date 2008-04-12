@@ -2,8 +2,6 @@ package fr.studioshi.commons.game.mode;
 
 import java.util.HashMap;
 
-import fr.studioshi.commons.game.Game;
-
 public abstract class GameModePool {
 
 	private static GameModePool instance;
@@ -31,14 +29,14 @@ public abstract class GameModePool {
 
 	protected HashMap<Integer, GameMode> modePool = new HashMap<Integer, GameMode>();
 
-	public GameMode getMode(Integer mode, Game game) {
+	public GameMode getMode(Integer mode) {
 		GameMode gameMode = modePool.get(mode);
 		if (gameMode == null) {
-			gameMode = initGameMode(mode, game);
+			gameMode = initGameMode(mode);
 		}
 		return gameMode;
 	}
 
-	protected abstract GameMode initGameMode(Integer mode, Game game);
+	protected abstract GameMode initGameMode(Integer mode);
 
 }

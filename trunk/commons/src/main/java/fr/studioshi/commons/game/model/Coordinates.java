@@ -25,17 +25,17 @@ public class Coordinates {
 	}
 
 	public void addX(int x) {
-		this.posX += x;
+		posX += x;
 	}
 
 	public void addY(int y) {
-		this.posY += y;
+		posY += y;
 	}
 
 	public boolean equal(Coordinates coords) {
-		if (coords.getPosX() == this.getPosX()
-				&& coords.getPosY() == this.getPosY())
+		if ((coords.getPosX() == getPosX()) && (coords.getPosY() == getPosY())) {
 			return true;
+		}
 		return false;
 	}
 
