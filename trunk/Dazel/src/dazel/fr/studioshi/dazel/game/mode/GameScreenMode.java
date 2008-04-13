@@ -10,7 +10,7 @@ import fr.studioshi.dazel.game.ui.gui.render.video.GameScreen2DRenderer;
 import fr.studioshi.dazel.game.ui.keylisteners.DazelKeyHandler;
 import fr.studioshi.dazel.game.util.DazelConstants;
 
-public class GameScreenMode extends GameMode {
+public class GameScreenMode extends GameMode<DazelGameObjects> {
 
 	public GameScreenMode(int gameMode) {
 		super(gameMode);

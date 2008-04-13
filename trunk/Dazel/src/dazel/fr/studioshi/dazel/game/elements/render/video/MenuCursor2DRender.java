@@ -1,15 +1,25 @@
 package fr.studioshi.dazel.game.elements.render.video;
 
+import java.awt.Graphics;
+
 import fr.studioshi.commons.game.model.Coordinates;
-import fr.studioshi.commons.game.model.SpriteRender;
 import fr.studioshi.commons.game.model.VisualRenderer;
+import fr.studioshi.commons.video.Sprite;
 import fr.studioshi.commons.video.SpriteStore;
+import fr.studioshi.dazel.game.elements.MenuCursor;
 import fr.studioshi.dazel.game.util.EntityKeys;
 
-public class MenuCursor2DRender extends VisualRenderer {
+public class MenuCursor2DRender extends VisualRenderer<MenuCursor> {
 
-	public MenuCursor2DRender(Coordinates coords) {
-		visualEntity = new SpriteRender(SpriteStore.getInstance().getSprite(
-				EntityKeys.TRIFORCE_MENU), coords);
+	private Sprite cursor;
+
+	public MenuCursor2DRender(MenuCursor cursor, Coordinates coords) {
+		super(cursor);
+		this.cursor = SpriteStore.getInstance().getSprite(
+				EntityKeys.TRIFORCE_MENU, coords);
+	}
+
+	public void render(Graphics graphics) {
+		cursor.render(graphics);
 	}
 }

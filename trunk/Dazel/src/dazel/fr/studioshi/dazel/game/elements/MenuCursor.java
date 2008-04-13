@@ -14,8 +14,8 @@ public class MenuCursor extends GameObject {
 	private int cursorPosition = 0;
 
 	public MenuCursor(Coordinates coords) {
-		this.visualRenderer = new MenuCursor2DRender(coords);
 		this.coords = coords;
+		this.visualRenderer = new MenuCursor2DRender(this, coords);
 	}
 
 	public void process() {

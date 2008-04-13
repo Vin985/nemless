@@ -51,7 +51,7 @@ public class DazelGame extends Game {
 		gameWindow.dispose();
 	}
 
-	public void setGameMode(GameMode gameMode) {
+	public void setGameMode(GameMode<?> gameMode) {
 		gameWindow.removeKeyListener(this.gameMode.getKeyListener());
 		this.gameMode = gameMode;
 		gameWindow.addKeyListener(gameMode.getKeyListener());

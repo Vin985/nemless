@@ -11,8 +11,8 @@ public class Link extends GameObject {
 	private int MOVEMENT_SPEED = 5;
 
 	public Link(Coordinates coords) {
-		this.visualRenderer = new Link2DRender(coords);
 		this.coords = coords;
+		this.visualRenderer = new Link2DRender(this, coords);
 	}
 
 	public void process() {
