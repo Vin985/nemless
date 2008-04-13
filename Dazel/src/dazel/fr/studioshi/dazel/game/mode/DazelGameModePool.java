@@ -7,7 +7,7 @@ import fr.studioshi.dazel.game.util.DazelConstants;
 public class DazelGameModePool extends GameModePool {
 
 	@Override
-	protected GameMode initGameMode(Integer mode) {
+	protected GameMode<?> initGameMode(Integer mode) {
 		switch (mode) {
 		case DazelConstants.MODE_MAIN_MENU:
 			return getMenu(mode);
@@ -20,14 +20,14 @@ public class DazelGameModePool extends GameModePool {
 	
 	}
 
-	private GameMode getGameScreen(Integer mode) {
-		GameMode gameScreenMode = new GameScreenMode(mode);
+	private GameMode<?> getGameScreen(Integer mode) {
+		GameMode<?> gameScreenMode = new GameScreenMode(mode);
 		modePool.put(DazelConstants.MODE_GAME_SCREEN, gameScreenMode);
 		return gameScreenMode;
 	}
 
-	private GameMode getMenu(Integer mode) {
-		GameMode menuMode = new MenuMode(mode);
+	private GameMode<?> getMenu(Integer mode) {
+		GameMode<?> menuMode = new MenuMode(mode);
 		modePool.put(DazelConstants.MODE_MAIN_MENU, menuMode);
 		return menuMode;
 	}

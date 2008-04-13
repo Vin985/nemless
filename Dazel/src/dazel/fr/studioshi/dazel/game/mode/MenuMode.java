@@ -12,7 +12,7 @@ import fr.studioshi.dazel.game.ui.gui.render.video.Menu2DRenderer;
 import fr.studioshi.dazel.game.ui.keylisteners.DazelKeyHandler;
 import fr.studioshi.dazel.game.util.DazelConstants;
 
-public class MenuMode extends GameMode {
+public class MenuMode extends GameMode<DazelMenuObjects> {
 
 	public MenuMode(int mode) {
 		super(mode);

@@ -5,17 +5,15 @@ import java.awt.Font;
 import java.awt.Graphics;
 
 import fr.studioshi.commons.game.model.GameModeVisualRenderer;
-import fr.studioshi.commons.game.model.GameObjects;
 import fr.studioshi.dazel.game.ui.gui.DazelMenuObjects;
 import fr.studioshi.dazel.game.util.DazelConstants;
 
-public class Menu2DRenderer extends GameModeVisualRenderer {
+public class Menu2DRenderer extends GameModeVisualRenderer<DazelMenuObjects> {
 
-	public Menu2DRenderer(GameObjects objects) {
+	public Menu2DRenderer(DazelMenuObjects objects) {
 		super(objects);
 	}
 
-	@Override
 	public void render(Graphics graphics) {
 		graphics.setColor(Color.BLACK);
 		graphics.fillRect(0, 0, DazelConstants.WINDOW_WIDTH,
@@ -23,8 +21,7 @@ public class Menu2DRenderer extends GameModeVisualRenderer {
 		graphics.setColor(Color.WHITE);
 		graphics.setFont(new Font("Arial", Font.BOLD, 15));
 
-		DazelMenuObjects objects =(DazelMenuObjects)gameObjects;
-		objects.getCursor().render(graphics);
-		objects.getTexts().render(graphics);
+		element.getCursor().render(graphics);
+		element.getTexts().render(graphics);
 	}
 }
