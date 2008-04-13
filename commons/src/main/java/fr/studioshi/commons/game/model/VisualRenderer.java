@@ -1,15 +1,21 @@
 package fr.studioshi.commons.game.model;
 
-import java.awt.Graphics;
-
 import fr.studioshi.commons.game.entities.VisualEntity;
 
-public abstract class VisualRenderer implements VisualEntity {
+public abstract class VisualRenderer<T extends VisualEntity> implements VisualEntity{
 
-	protected VisualEntity visualEntity;
+	protected T element;
 
-	public void render(Graphics graphics) {
-		visualEntity.render(graphics);
+	public VisualRenderer(T element) {
+		this.element = element;
+	}
+
+	public T getElement() {
+		return element;
+	}
+
+	public void setElement(T element) {
+		this.element = element;
 	}
 
 }

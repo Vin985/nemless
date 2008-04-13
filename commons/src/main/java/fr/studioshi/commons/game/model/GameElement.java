@@ -6,7 +6,7 @@ import fr.studioshi.commons.game.entities.GameEntity;
 
 public abstract class GameElement implements GameEntity {
 
-	protected VisualRenderer visualRenderer;
+	protected VisualRenderer<?> visualRenderer;
 
 	protected SoundPlayer soundPlayer;
 
@@ -25,11 +25,11 @@ public abstract class GameElement implements GameEntity {
 		}
 	}
 
-	public VisualRenderer getVisualRenderer() {
+	public VisualRenderer<?> getVisualRenderer() {
 		return visualRenderer;
 	}
 
-	public void setVisualRenderer(VisualRenderer visualRenderer) {
+	public void setVisualRenderer(VisualRenderer<?> visualRenderer) {
 		this.visualRenderer = visualRenderer;
 	}
 

@@ -17,7 +17,7 @@ public abstract class Game implements GameEntity {
 
 	protected boolean isRunning = true;
 
-	protected GameMode gameMode;
+	protected GameMode<?> gameMode;
 	protected GameWindow gameWindow;
 
 	public void playSound() {
@@ -32,7 +32,7 @@ public abstract class Game implements GameEntity {
 		gameMode.render(graphics);
 	}
 
-	public GameMode getGameMode() {
+	public GameMode<?> getGameMode() {
 		return gameMode;
 	}
 
@@ -44,7 +44,7 @@ public abstract class Game implements GameEntity {
 		return isRunning;
 	}
 
-	public void setGameMode(GameMode gameMode) {
+	public void setGameMode(GameMode<?> gameMode) {
 		this.gameMode = gameMode;
 	}
 

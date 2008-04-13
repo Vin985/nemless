@@ -7,7 +7,7 @@ import fr.studioshi.commons.game.keylistener.KeyHandler;
 import fr.studioshi.commons.game.model.GameElement;
 import fr.studioshi.commons.game.model.GameObjects;
 
-public abstract class GameMode extends GameElement {
+public abstract class GameMode<T extends GameObjects> extends GameElement {
 
 	protected int gameMode;
 
@@ -17,7 +17,7 @@ public abstract class GameMode extends GameElement {
 
 	protected KeyHandler keyListener;
 
-	protected GameObjects gameObjects;
+	protected T gameObjects;
 
 	public GameMode(int mode) {
 		this.gameMode = mode;
@@ -49,7 +49,7 @@ public abstract class GameMode extends GameElement {
 		return changeMode;
 	}
 
-	public GameObjects getGameObjects() {
+	public T getGameObjects() {
 		return gameObjects;
 	}
 
@@ -77,7 +77,7 @@ public abstract class GameMode extends GameElement {
 		this.keyListener = keyListener;
 	}
 
-	public void setGameObjects(GameObjects gameObjects) {
+	public void setGameObjects(T gameObjects) {
 		this.gameObjects = gameObjects;
 	}
 }
