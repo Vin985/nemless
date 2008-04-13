@@ -2,6 +2,8 @@ package fr.studioshi.commons.video;
 
 import java.util.HashMap;
 
+import fr.studioshi.commons.game.model.Coordinates;
+
 /**
  * A resource manager for sprites in the game. Its often quite important how and
  * where you get your game resources from. In most cases it makes sense to have
@@ -49,6 +51,12 @@ public class SpriteStore {
 		Sprite sprite = spriteLoader.loadSprite(key);
 		sprites.put(key, sprite);
 
+		return sprite;
+	}
+	
+	public Sprite getSprite(String key, Coordinates coords) {
+		Sprite sprite = getSprite(key);
+		sprite.setCoords(coords);
 		return sprite;
 	}
 

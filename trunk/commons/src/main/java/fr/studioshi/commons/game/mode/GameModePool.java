@@ -27,16 +27,16 @@ public abstract class GameModePool {
 		}
 	}
 
-	protected HashMap<Integer, GameMode> modePool = new HashMap<Integer, GameMode>();
+	protected HashMap<Integer, GameMode<?>> modePool = new HashMap<Integer, GameMode<?>>();
 
-	public GameMode getMode(Integer mode) {
-		GameMode gameMode = modePool.get(mode);
+	public GameMode<?> getMode(Integer mode) {
+		GameMode<?> gameMode = modePool.get(mode);
 		if (gameMode == null) {
 			gameMode = initGameMode(mode);
 		}
 		return gameMode;
 	}
 
-	protected abstract GameMode initGameMode(Integer mode);
+	protected abstract GameMode<?> initGameMode(Integer mode);
 
 }
