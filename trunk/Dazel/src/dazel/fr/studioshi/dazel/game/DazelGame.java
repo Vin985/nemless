@@ -5,7 +5,7 @@ import fr.studioshi.commons.game.engine.GameEnginePool;
 import fr.studioshi.commons.game.keylistener.Events;
 import fr.studioshi.commons.game.mode.GameMode;
 import fr.studioshi.commons.game.mode.GameModePool;
-import fr.studioshi.commons.video.SpriteStore;
+import fr.studioshi.commons.video.sprite.SpriteStore;
 import fr.studioshi.dazel.game.mode.DazelGameModePool;
 import fr.studioshi.dazel.game.ui.gui.DazelGameEnginePool;
 import fr.studioshi.dazel.game.util.DazelConstants;
