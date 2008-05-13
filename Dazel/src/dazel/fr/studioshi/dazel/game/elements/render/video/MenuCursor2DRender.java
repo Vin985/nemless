@@ -4,8 +4,8 @@ import java.awt.Graphics;
 
 import fr.studioshi.commons.game.model.Coordinates;
 import fr.studioshi.commons.game.model.VisualRenderer;
-import fr.studioshi.commons.video.Sprite;
-import fr.studioshi.commons.video.SpriteStore;
+import fr.studioshi.commons.video.sprite.Sprite;
+import fr.studioshi.commons.video.sprite.SpriteStore;
 import fr.studioshi.dazel.game.elements.MenuCursor;
 import fr.studioshi.dazel.game.util.EntityKeys;
 
