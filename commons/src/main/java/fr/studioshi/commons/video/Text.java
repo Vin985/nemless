@@ -35,11 +35,11 @@ public class Text extends GraphicElement {
 	 * @param y
 	 *            The y location at which to draw the sprite
 	 */
-	public void render(Graphics graphics) {
+	protected void draw(Graphics graphics, int x, int y) {
 		if (font != null) {
 			graphics.setFont(font);
 		}
-		graphics.drawString(text, coords.getPosX(), coords.getPosY());
+		graphics.drawString(text, x, y);
 	}
 
 	public void setFont(Font font) {
