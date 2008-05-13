@@ -1,9 +1,7 @@
-package fr.studioshi.commons.video;
+package fr.studioshi.commons.video.sprite;
 
 import java.awt.Graphics;
 import java.awt.Image;
-
-import fr.studioshi.commons.game.model.GraphicElement;
 
 /**
  * A sprite to be displayed on the screen. Note that a sprite contains no state
@@ -13,9 +11,7 @@ import fr.studioshi.commons.game.model.GraphicElement;
  * 
  * @author Kevin Glass
  */
-// Prendre en Compte les sprites animes et le changement de couleur selon la
-// tunique ou autre
-public class Sprite extends GraphicElement {
+public class SimpleSprite extends Sprite {
 	/** The image to be drawn for this sprite */
 	private Image image;
 
@@ -25,8 +21,7 @@ public class Sprite extends GraphicElement {
 	 * @param image
 	 *            The image that is this sprite
 	 */
-	public Sprite(Image image) {
-		super();
+	public SimpleSprite(Image image) {
 		this.image = image;
 	}
 
@@ -58,10 +53,7 @@ public class Sprite extends GraphicElement {
 	 * @param y
 	 *            The y location at which to draw the sprite
 	 */
-	public void render(Graphics g) {
-		g.drawImage(image, coords.getPosX(), coords.getPosY(), null);
-		// TODO remove comments
-		// g.setColor(Color.BLACK);
-		// g.fillRect(coords.getPosX(), coords.getPosY(), 1, 1);
+	protected void draw(Graphics g, int x, int y) {
+		g.drawImage(image, x, y, null);
 	}
 }

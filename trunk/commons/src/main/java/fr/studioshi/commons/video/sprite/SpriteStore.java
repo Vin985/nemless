@@ -1,4 +1,4 @@
-package fr.studioshi.commons.video;
+package fr.studioshi.commons.video.sprite;
 
 import java.util.HashMap;
 
